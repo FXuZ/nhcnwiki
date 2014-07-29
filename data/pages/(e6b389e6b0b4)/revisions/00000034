@@ -1,0 +1,57 @@
+= 泉水 =
+泉水 {{attachment:Fountain.png}} ，主要是由<<Color2("{",blue,gray)>>（左大括号）表示的[[地牢地形]]，但可能由<<Color2("¶",blue,gray)>>（pilcrow），<<Color2("⌠",blue,gray)>>（pilcrow)(上半整数）或<<Color2("Ї",blue,gray)>>（西里尔大写字母YI）表示，这取决于您的操作系统和选项​​（参见下面关于符号的说明）。
+
+它们随机分散在整个[[地牢]]，一般在[[房间]]，没有任何其他的[[地牢地形]]功能（即：[[箱子]]，[[水槽]]）。 [[ 您可以通过它来[[浸渍]][[物品]]，并[[畅饮]]它的水，可以向下[[挖掘]]。
+
+在非[[特殊层]]的喷泉有1/7（14％）的几率是魔法的，不能在使用前确定属性。[[挖]][[水槽]]将创建一个非魔法喷泉。
+
+<<TableOfContents>>
+
+== 喝泉水 ==
+你可以通过站在泉水上来喝它. 这个动作会产生一条信息来暗示它的后果
+
+=== 魔法泉水 ===
+如果那是一个魔法泉水，且你的natural[[运气]]非负的话
+
+||信息 ||影响 ||几率 ||
+||冰凉一口，提神醒脑"The cool draught refreshes you." ||你的饥饿稍微减少了 ||3/10 ||
+||哦，这让你感觉好多了Wow! This makes you feel great!""A wisp of vapor escapes the fountain..."中译? ||你的[[智力]]锻炼了，且所有能力恢复到最大，（与[[恢复能力药水]]效果相同）。一个属性增加1（与[[未诅咒的]][[获得能力药水]]效果相同）;如果你天生运气是4或更高，这​​最后的效果会增加你所有属性加1（[[祝福]]的药水效果）。这种效果后，喷泉不再是魔法的的。 ||7/10 ||
+
+
+natural[[运气]]指的是你没有额外携带[[未诅咒的]][[luckstone]]。
+
+在以上任一情况下，喷泉不会干涸。
+
+=== 非魔法泉水 ===
+如果那是一个非魔法泉水，或者你的运气为负时喝魔法泉水
+||效果 ||影响 ||几率 ||
+||"The cool draught refreshes you."<<BR>> 清凉一口，提神醒脑||你的饥饿稍微减少了 ||9/30 ||
+||"This tepid water is tasteless.”<<BR>>这水不温不热 ，一点味道也没有||无效果||9/30 ||
+||"You feel self-knowledgeable..."<<BR>>你感觉更了解自己了||<|2>你能够看见自己的属性并锻炼了智力(就像使用未诅咒的启发之杖和启发药水enlightenment) ||<|2>1/30 ||
+||"The feeling subsides..."<<BR>>你感到平和了||
+||"The water is foul! You gag and vomit." <<BR>>这水臭了!你堵上嘴呕吐||你呕吐了且饥饿增长||1/30 ||
+||"The water is contaminated!"<<BR>>这水被污染了!||你失去d10 的HP 和 d4+2 的STR and 你的体质abused.(如果你不具有毒抗性) ||<rowspan=2>1/30||
+||"Perhaps it is runoff from the nearby <fruit>slime mold farm."<<BR>> 也许这是从附近的slimemold农场流出来的||你失去 d4 HP(如果你具有毒抗性) ||
+||"An endless stream of snakes pour forth!"<<BR>>数不清的蛇流了出来!||<|3>产生d5+1 的水蛇 ||<|3>1/30 ||
+||"You hear something hissing!"<<BR>>你听到什么东西发出嘶嘶的声音(如果盲目) ||
+||"The fountain bubbles furiously for a moment, then calms." <<BR>>泉水开始剧烈的冒泡，一会平静了下来(如果蛇被灭绝) ||
+||You unleash a water demon"<<BR>>你召唤出来一个水魔神(water demon)"||<|4>一个水魔神被召唤。有 (80+DL)/100的可能是敌对状态 (100% 如果你持有护身符); 如果不是敌对的，他会给你一个许愿然后消失||<|4>1/30 ||
+||"You feel the presence of evil." <<BR>>你感受到邪恶的存在"(盲目时)||
+||"Grateful for his/her release, he/she grants you a wish!" <<BR>>感谢他的释放，他赋予你一个许愿(友善的)||
+||"The fountain bubbles furiously for a moment, then calms."<<BR>> 泉水剧烈的冒泡，一会平静了下来(召唤失败) ||
+||"You attract a water nymph!"<<BR>>你吸引了一只水[[宁芙]]||<|4>A water nymph is summoned.<<BR>>一个水[[宁芙]]被召唤出来 ||<|4>1/30 ||
+||"You hear a seductive voice." <<BR>>你听见了妖媚的声音（如果盲目）||
+||"A large bubble rises to the surface and pops."<<BR>>一个大泡泡浮出水面并且破裂了（未盲目，水[[宁芙]]被灭绝）||
+||You hear a loud pop." <<BR>>你听见了巨大的爆裂声（盲目，水[[宁芙]]被灭绝）||
+||"This water's no good!"<<BR>> 这水不好||你背包里的物品都有1/5的几率被诅咒;你的饥饿增长了且你的体质 abused. ||1/30 ||
+||"You see an image of someone stalking you. But it disappears."<<BR>>你看见一幅有人跟踪你的图像，不过它消失了"||<|3>你获得隐形可见且锻炼了智力||<|3>1/30 ||
+||You feel transparent."<<BR>>你感觉透明 (盲目.隐形)||
+||"You feel very self-conscious. Then it passes." <<BR>>你感觉很尴尬，一会就过去了(盲目，非隐形) ||
+||"You sense the presence of monsters."<<BR>>你感知到怪物的存在||<|5>你能简要的看见该层的怪物位置且锻炼了智力，如果这层没有怪物 (other than you), 没有可见的效果. ||<|5>1/30 ||
+||"You have a strange feeling for a moment, then it passes." <<BR>>你有一种奇怪的感觉，然后它消失了(无怪物, beginner, 无幻觉)||
+||"You have a normal feeling for a moment, then it passes."<<BR>>你有一种正常的感觉，一会就好了(无怪物, beginner, 幻觉)||
+||"You feel threatened.(无怪物 无幻觉)||
+||"You get the heebie jeebies." (无怪物 幻觉) ||
+||"You spot a gem in the sparkling waters!" (unblind)"You feel a gem here!" (blind) ||You find a random valuable gem or piece of worthless glass and your wisdom is exercised. If you have already acquired gems or gold from this fountain, a nymph is summoned instead (as above). ||1/30 ||
+||"This water gives you bad breath!" ||Monsters on the level flee you for a while. ||1/30 ||
+||"Water gushes forth from the overflowing fountain!" (pool created)"Your thirst is quenched." (no pools created) ||A number of pools may be created in your vicinity. (Never two orthogonally adjacent, never on your square, the more likely the closer to you.) Be aware that any precious items laying near you may end up at the bottom of a pool! ||1/30 ||

@@ -1,0 +1,37 @@
+## Please edit system and help pages ONLY in the master wiki!
+## For more information, please see MoinMoin:MoinDev/Translation.
+##master-page:FrontPage
+##master-date:2010-08-03 21:30:00
+#format wiki
+#language zh
+#pragma section-numbers off
+= NetHack中文维基 =
+大家好，欢迎您来到NetHack中文维基。NetHack是一款发行于1987年的电子游戏。由于本游戏难度较大，许多玩家希望能够得到帮助。!NetHack中文维基就是这样一个大家一起分享游戏中的资料的地方。您可以随意编写本网站的所有内容。
+
+== 如何创建一个词条 ==
+[[楼梯]]这个词条是一个已经由一位名为[[http://tieba.baidu.com/home/main/?un=lujingyiqwe&fr=frs|lujingyiqwe]]的网友编写的条目。这就是一个示范。创建一个新的词条，应该遵循以下步骤：
+
+在右上角搜索你想创建的词条，看看是否有人创建了。例如“骑士”。如果没有，那么就在网址中输入词条即可创建。例如：http://nhcnwiki.wealthlibre.info/骑士
+
+您如果想知道更多的关于维基的编写，也许可以从这些连接开始:
+
+ * [[最新改动]]: 谁最近改动了什么
+ * [[维基沙盘演练]]: 您可以随意改动编辑，热身演练
+ * [[查找网页]]: 用多种方法搜索浏览这个站点
+ * [[帮助-维基语法]]: 维基语法简便参考
+
+== 如何使用这个站点 ==
+维基(wiki)是一种协同合作网站，任何人都可以参与网站的建立、编辑和维护并分享网站的内容：
+
+ * 点击每个网页页眉或页尾中的'''<<GetText(Edit)>>'''就可以随意编辑改动这个网页。
+ * 创建一个链接简单的不能再简单了：您可以使用连在一起的，每个单词第一个字母大写，但不用空格分隔的词组(比如WikiSandBox)，也可以用{{{[[words in brackets]]}}}。简体中文的链接可以使用后者，比如{{{[[维基沙盘演练]]}}}。
+ * 每页的页眉中的搜索框可以用来将进行网页标题搜索或者进行全文检索。
+ * 新手可以参阅[[帮助-新手入门]]，如需要详尽的帮助，参阅[[帮助目录]]。
+
+如需要更多有关[[维基网]]的信息，请参考[[维基好坏说]]和MoinMoin:WikiNature (英文)。也请参考[[帮助-其他/常见问题解答]]。
+
+本维基使用[[简体中文MoinMoin]]系统。[[简体中文MoinMoin]]是[[http://moinmo.in/|MoinMoin]]的简体中文版本。
+
+此页的英文版本：FrontPage
+
+ . Copyright (C)  http://nhcnwiki.wealthlibre.info. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled "[[GNU Free Documentation License]]".

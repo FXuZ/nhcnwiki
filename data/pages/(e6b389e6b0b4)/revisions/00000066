@@ -1,0 +1,163 @@
+= 泉水 =
+泉水 {{attachment:Fountain.png}} ，主要是由<<Color2("{",blue,gray)>>（左大括号）表示的[[地牢地形]]，但可能由<<Color2("¶",blue,gray)>>（pilcrow），<<Color2("⌠",blue,gray)>>（pilcrow)(上半整数）或<<Color2("Ї",blue,gray)>>（西里尔大写字母YI）表示，这取决于您的操作系统和选项​​（参见下面关于符号的说明）。
+
+它们随机分散在整个[[地牢]]，一般在[[房间]]，没有任何其他的[[地牢地形]]功能（即：[[箱子]]，[[水槽]]）。 [[您可以通过它来[[浸渍]][[物品]]，并[[畅饮]]它的水，可以向下[[挖掘]]。
+
+在非[[特殊层]]的喷泉有1/7（14％）的几率是魔法的，不能在使用前确定属性。[[挖]][[水槽]]将创建一个非魔法喷泉。
+
+<<TableOfContents>>
+
+== 喝泉水 ==
+你可以通过站在泉水上来喝它. 这个动作会产生一条信息来暗示它的后果
+
+=== 魔法泉水 ===
+如果那是一个魔法泉水，且你的natural[[运气]]非负的话
+||信息 ||影响 ||几率 ||
+||冰凉一口，提神醒脑<<BR>>"The cool draught refreshes you." ||你的饥饿稍微减少了 ||3/10 ||
+||哦，这让你感觉好多了<<BR>>Wow! This makes you feel great!""A wisp of vapor escapes the fountain..." ||你的[[智力]]锻炼了，且所有能力恢复到最大，（与[[恢复能力药水]]效果相同）。<<BR>>一项属性增加1（与[[未诅咒的]][[获得能力药水]]效果相同）;如果你天生运气是4或更高，这​​最后的效果会增加你所有属性加1（[[祝福]]的药水效果）。<<BR>>这种效果后，喷泉不再是魔法的的。 ||7/10 ||
+
+
+
+
+natural[[运气]]指的是你没有额外携带[[未诅咒的]][[luckstone]]。
+
+在以上任一情况下，喷泉不会干涸。
+
+=== 非魔法泉水 ===
+如果那是一个非魔法泉水，或者你的运气为负时喝魔法泉水
+||效果 ||影响 ||几率 ||
+||"The cool draught refreshes you."<<BR>> 清凉一口，提神醒脑 ||你的饥饿稍微减少了 ||9/30 ||
+||"This tepid water is tasteless.”<<BR>>这水不温不热 ，一点味道也没有 ||无效果 ||9/30 ||
+||"You feel self-knowledgeable..."<<BR>>你感觉更了解自己了 ||<rowspan=2>你能够看见自己的属性并锻炼了智力<<BR>>(就像使用未诅咒的启发之杖和启发药水) ||<|2>1/30 ||
+||"The feeling subsides..."<<BR>>你感到平和了 ||
+||"The water is foul! You gag and vomit." <<BR>>这水臭了!你堵上嘴呕吐 ||你呕吐了且饥饿增长 ||1/30 ||
+||"The water is contaminated!"<<BR>>这水被污染了! ||你失去d10 的HP 和 d4+2 的STR <<BR>>你的体质abused.(如果你不具有毒抗性) ||<|2>1/30 ||
+||"Perhaps it is runoff from the nearby <fruit>slime mold farm."<<BR>> 也许这是从附近的slimemold农场流出来的 ||你失去 d4 HP(如果你具有毒抗性) ||
+||"An endless stream of snakes pour forth!"<<BR>>数不清的蛇流了出来! ||<rowspan=3>产生d5+1 的水生噬鱼蝮蛇 ||<rowspan=3>1/30 ||
+||"You hear something hissing!"<<BR>>你听到什么东西发出嘶嘶的声音(如果盲目) ||
+||"The fountain bubbles furiously for a moment, then calms." <<BR>>泉水开始剧烈的冒泡，一会平静了下来(如果蛇被灭绝) ||
+||You unleash a water demon"<<BR>>你召唤出来一个水魔神(water demon)" ||<rowspan=4>一个水魔神被召唤。<<BR>>有 (80+DL)/100的可能是敌对状态 (100% 如果你持有护身符); <<BR>>如果不是敌对的，他会给你一个许愿然后消失 ||<rowspan=4>1/30 ||
+||"You feel the presence of evil." <<BR>>你感受到邪恶的存在"(盲目时) ||
+||"Grateful for his/her release, he/she grants you a wish!" <<BR>>感谢他的释放，他赋予你一个许愿(友善的) ||
+||"The fountain bubbles furiously for a moment, then calms."<<BR>> 泉水剧烈的冒泡，一会平静了下来(召唤失败) ||
+||"You attract a water nymph!"<<BR>>你吸引了一只水[[宁芙]] ||<rowspan=4>一个水[[宁芙]]被召唤出来 ||<rowspan=4>1/30 ||
+||"You hear a seductive voice." <<BR>>你听见了妖媚的声音（如果盲目） ||
+||"A large bubble rises to the surface and pops."<<BR>>一个大泡泡浮出水面并且破裂了（未盲目，水[[宁芙]]被灭绝） ||
+||You hear a loud pop." <<BR>>你听见了巨大的爆裂声（盲目，水[[宁芙]]被灭绝） ||
+||"This water's no good!"<<BR>> 这水不好 ||你背包里的物品都有1/5的几率被诅咒;<<BR>>你的饥饿增长了且你的体质 abused. ||1/30 ||
+||"You see an image of someone stalking you. But it disappears."<<BR>>你看见一幅有人跟踪你的图像，不过它消失了" ||<rowspan=3>你获得隐形可见且锻炼了智力 ||<rowspan=3>1/30 ||
+||You feel transparent."<<BR>>你感觉透明 (盲目.隐形) ||
+||"You feel very self-conscious. Then it passes." <<BR>>你感觉很尴尬，一会就过去了(盲目，非隐形) ||
+||"You sense the presence of monsters."<<BR>>你感知到怪物的存在 ||<rowspan=5>你能简要的看见该层的怪物位置且锻炼了智力，<<BR>>如果这层没有怪物 (other than you), 没有可见的效果. ||<rowspan=5>1/30 ||
+||"You have a strange feeling for a moment, then it passes." <<BR>>你有一种奇怪的感觉，然后它消失了(无怪物, beginner, 无幻觉) ||
+||"You have a normal feeling for a moment, then it passes."<<BR>>你有一种正常的感觉，一会就好了(无怪物, beginner, 幻觉) ||
+||"You feel threatened.你感到恐惧(无怪物 无幻觉) ||
+||"You get the heebie jeebies." (无怪物 幻觉) ||
+||"You spot a gem in the sparkling waters!" <<BR>>你在波光粼粼的水中看到一块宝石!(未盲目)"You feel a gem here!" <<BR>>你感觉这里有块宝石!(盲目) ||你随机发现一块宝石或一片毫无价值的玻璃 ，且你的智力增长了.<<BR>> 如果你已经从这个温泉获得了宝石或黄金, 一只宁芙会被召唤 (as above). ||1/30 ||
+||"This water gives you bad breath!" <<BR>>这水使你口臭! ||该层的怪物会在一段时间远离你. ||1/30 ||
+||Water gushes forth from the overflowing fountain!"<<BR>> 水从泉水里涌出(产生水池)"Your thirst is quenched." <<BR>>你不那么渴了(没有产生水池) ||一定数量的pool会在你身边产生. (水池不会垂直相邻或在你的方格，带更可能接近你.) 小心放在你周围的任何贵重物品可能会最终在水池的底部 ||1/30 ||
+
+
+
+
+泉水都有1/3的几率干涸，除了在矿坑小镇, 那个你总是得到警告的地方。
+
+== 浸泡 ==
+如果你把一把普通的长剑浸#dip 在泉水里(你的等级至少为五，且Excalibur 还没有存在于你的游戏中), 就有1/6的可能使你的长剑发生一些特别的事情. 如果你是守序阵营，长剑就会变成祝福的防锈的未腐蚀的防损的(damageproof) Excalibur ，且你锻炼了智力. (在SporkHack衍生版中, 浸泡长剑只对守序阵营的骑士有效) 如果你是中立netural或者混乱chaotic阵营，你的长剑会被诅咒， 失去原有的防锈, 有可能失去一级强化, 并且降低你的智慧。泉水随之消失。如果你在矿坑小镇中浸泡长剑, 无论你是否被事先警告，都会直接激怒守卫。
+
+在其他的情况中, 浸泡则会很普通。首先, 这个物品会变湿，并且出现一些相应的正常情况。 (卷轴和魔法书会变成空白的, 药水会稀释, 铁制物品会生锈, 灯会熄灭, 油脂会被洗掉). 之后特殊的效果会发生。(如果物品变湿，并且已经产生了一个特殊效果了，则之有50%的机会）[2])
+||信息 ||效果 ||几率 ||
+||"A strange tingling runs up your arm."<<BR>>一阵奇怪的刺痛从手臂传来 (1/18)<<BR>>"You feel a sudden chill." <<BR>>你突然感觉凉飕飕的(1/18)<<BR>>无信息(16/18) ||无特殊效果 ||18/30 ||
+||"The water glows for a moment."<<BR>>水亮起来一会儿(解除诅咒，未盲目)<<BR>>"A feeling of loss comes over you."<<BR>> 你感觉失去了什么(物品没有被诅咒) ||浸入的物品会解除诅咒 (如果它被诅咒了的话). ||4/30 ||
+||无信息 ||浸入的物品直接被诅咒. ||1/30 ||
+||"An endless stream of snakes pour forth!"<<BR>>数不清的蛇流了出来!  <<BR>>"You hear something hissing!"<<BR>>你听到什么东西发出嘶嘶的声音(如果盲目) <<BR>>"The fountain bubbles furiously for a moment, then calms."泉水开始剧烈的冒泡，一会平静了下来(如果蛇(moccasins)被灭绝) ||产生d5+1数量的水生噬鱼蝮蛇. ||1/30 ||
+||You unleash a water demon"<<BR>>你召唤出来一个水魔神(water demon)" ||<rowspan=4>一个水魔神被召唤。<<BR>>有 (80+DL)/100的可能是敌对状态 (100% 如果你持有护身符); <<BR>>如果不是敌对的，他会给你一个许愿然后消失 ||<rowspan=4>1/30 ||
+||"You feel the presence of evil." <<BR>>你感受到邪恶的存在"(盲目时) ||
+||"Grateful for his/her release, he/she grants you a wish!" <<BR>>感谢他的释放，他赋予你一个许愿(友善的) ||
+||"The fountain bubbles furiously for a moment, then calms."<<BR>> 泉水剧烈的冒泡，一会平静了下来(召唤失败) ||
+||"You attract a water nymph!"<<BR>>你吸引了一只水[[宁芙]] ||<rowspan=4>一个水[[宁芙]]被召唤出来 ||<rowspan=4>1/30 ||
+||"You hear a seductive voice." <<BR>>你听见了妖媚的声音（如果盲目） ||
+||"A large bubble rises to the surface and pops."<<BR>>一个大泡泡浮出水面并且破裂了（未盲目，水[[宁芙]]被灭绝） ||
+||You hear a loud pop." <<BR>>你听见了巨大的爆裂声（盲目，水[[宁芙]]被灭绝） ||
+||"Water gushes forth from the overflowing fountain!" <<BR>>(pool created)水从四溢的泉水中涌出。（周围有水坑生成） ||<rowspan=2>可能有一定数量的水坑出现在你的附近。（不会有两个垂直相邻，不会在你所站的地砖上，但是会尽可能的接近你） ||<rowspan=2>1/30 ||
+||<<BR>>"Water sprays all over you." (no pools created)<<BR>>水遍布你的全身。（周围没有水坑生成） ||
+||"You spot a gem in the sparkling waters!" (unblind)<<BR>>你在波光粼粼的水中发现了一颗宝石！（未致盲）||<rowspan=2><<BR>>你发现了一种随机的有价值的宝石，或者一块一文不值的玻璃，并且你的智慧得到了锻炼。如果你曾经在这里得到过宝石或金块，取而代之的情况则是水坑有可能被生成。||<rowspan=2>1/30 ||
+||"You feel a gem here!" (blind)<<BR>>你在这里感觉到了一颗宝石！（致盲状态） ||
+||"An urge to take a bath overwhelms you."<<BR>>一种想洗澡的冲动环绕着你<<BR>>"You lost some of your gold in the fountain!" <<BR>>你在泉水中失去了一些金子||你失去一些金子且你的智力下降了<<BR>>The amount you lose depends on the amount(GP)you have, as follows你失去的数量取决于你拥有的GP，如下:GP<=10 : 0 zorkmids<<BR>>GP < 100  : GP/10 zorkmids<<BR>>GP≤10000 : d(GP)/10 zorkmids<<BR>>GP>10000 : d(10000)/10 zorkmids<<BR>>宝石和金子现在能再次在这个泉水中找到<<BR>> 你的物品不会生锈或者漂白||1/30 ||
+||"Far below you, you see coins glistening in the water." 在你很远的下方，你看到在水中有闪闪发光的硬币||你找的(2 * d(高度 + 1)) + 5 zorkmids,高度是你目前所处地牢层分支到最底层的高度;<<BR>> 你的智慧增长了。如果你已经从这个泉水获得了宝石或金子，那么无效果. ||1/30 ||
+每一个上表中提到的效果发生之后, 泉水都有1/3的几率干涸 (除了在矿坑小镇，那个你总是收到一条警告的地方).
+如果浸湿物品引起了影响, 有1/2的几率没有特殊效果. 
+
+比如说把一种不是水的药剂浸在泉水里，只有1/6的可能使泉水干涸，因为浸湿药剂会有稀释药剂的效果，然而把石头浸到水里就有1/3的可能使泉水干涸，因为浸湿石头对石头没有效果。
+
+你在泉水干涸或者得到想要的结果之前浸泡物品，你都有31.6%的几率解除物品的诅咒，或者每项9.4%的几率诅咒物品，召唤魔神，召唤宁芙。
+== 其他的泉水效果 ==
+挖掘泉水将可能在你的附近创造一定数量的水坑（如果你的视线内有足够的空间，则总是会创造；不会超过两个在你的相邻垂直方格中，不会在你所站的方格中，并且尽可能的靠近你）。以下为提示信息：
+ * "Water gushes forth from the overflowing fountain!" <<BR>> 水从四溢的泉水中涌出。（周围有水坑生成） 
+ * "Water sprays all over you." <<BR>>水遍布你的全身。（周围没有水坑生成）
+
+创造的水坑可以淹死你的宠物。这不会破“[[坏和平主义者]]”的成就或者激怒你的神。
+
+踢一个泉水有2/3的几率锻炼你的敏捷，已经1/3的几率弄湿你的鞋子，这可以用来鉴定[[脚踢鞋]]。反之，如同水槽一样，你会得到如下信息"Ouch! That hurts!"“喔，真疼！”你会损失最多5生命值，降低你的敏捷和力量，并且有可能弄伤你的腿。
+
+水精灵可能会在泉水中复制。如果你变成了一个水精灵，则可以使用[[ monster command | #monster ]]指令来进行复制。和平常一样有1/3的几率使泉水干涸。
+
+你不能在泉水中刻写符文。
+
+把钱（或者其他的物品）扔到泉水里面是没有任何效果的。
+
+== 得到许愿的几率 ==
+下表给出了在给出的楼层中在泉水干涸前你通过在泉水中浸泡或者从泉水中畅饮得到至少一个许愿的几率。
+
+||地牢层数 ||得到许愿的几率 ||
+||1	||1.9%||
+||2	||1.8%||
+||3	||1.7%||
+||4	||1.6%||
+||5	||1.5%||
+||6	||1.4%||
+||7	||1.3%||
+||8	||1.2%||
+||9	||1.1%||
+||10 ||1.0%||
+||11 ||0.9%||
+||12 ||0.8%||
+||13 ||0.7%||
+||14 ||0.6%||
+||15 ||0.5%||
+||16 ||0.4%||
+||17 ||0.3%||
+||18 ||0.2%||
+||19 ||0.1%||
+||20 ||0.0%||
+以下是得到这些数据的理由
+
+在地牢层的泉水中单次畅饮或浸泡不会得到一个许愿的几率是
+.
+在地牢层的泉水中获得许愿之前泉水干涸的几率是
+
+在地牢层的泉水中得到至少一个许愿的几率是
+
+== 矿坑小镇 ==
+每个泉水第一次通过畅饮或浸泡通常会干涸，所以你会得到一个警告:
+
+'''The <watchman> yells: "Hey, stop using that fountain!<<BR>>卫兵喊:嘿，停下使用那个泉水!'''<<BR>>''一个卫兵或卫兵队长能看见你，而你将使泉水干涸''
+
+'''The flow reduces to a trickle.'''<<BR>>水流降低得非常稀少了。<<BR>>''你不在卫兵的视野，但是你将使泉水干涸''
+
+泉水在你下一次从泉水中畅饮或浸泡物品后将会干涸(如果浸湿物品引起了影响则只有1/2的可能) ，这都会激怒矿坑的卫兵而无论他们是否能看见你破坏泉水的行为
+
+泉水常常会干涸而没有警告，比如你挖掘泉水来制造水坑，或把长剑浸泡到泉水里的时候，这也会激怒卫兵。
+
+== 信息提示 ==
+'''You hear bubbling water.'''<<BR>>''你听到汩汩的水声。''
+
+'''You hear water falling on coins.'''<<BR>>''你听到水滴落在金币上的声音。''
+
+'''You hear the splashing of a naiad.'''<<BR>>你听到水仙女在戏水。
+
+这表示该层有泉水
+
+'''You hear a soda fountain!'''<<BR>>你听到可乐售卖机的声音。
+
+如果你看到以上的信息，也是表示该层有泉水，不过你处在幻觉中。

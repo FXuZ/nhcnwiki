@@ -1,0 +1,12 @@
+#acl TrustedEditorGroup:read,write,revert All:read
+This is a list of trusted editors of this wiki (they won't see TextCha``s, for example).
+
+Anyone in this group can add more members, so just ask if you are a regular user of this wiki and not (yet) in this group:
+
+本列表为受信作者，受信列表的存在并不表示不欢迎其他的非注册用户，而是，其他的用户必须要回答验证问题。而在本列表的作者将无需回答坑爹的验证问题。
+
+任何在此表中的作者，都可以添加其他的作者。
+
+ * IceGuye
+ * [[孤客]]
+ * [[F_XZ]]

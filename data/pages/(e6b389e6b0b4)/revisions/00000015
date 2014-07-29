@@ -1,0 +1,44 @@
+= 泉水 =
+泉水 {{attachment:Fountain.png}} ，主要是由<<Color2("{",blue,gray)>>（左大括号）表示的[[地牢地形]]，但可能由<<Color2("¶",blue,gray)>>（pilcrow），<<Color2("⌠",blue,gray)>>（pilcrow)(上半整数）或<<Color2("Ї",blue,gray)>>（西里尔大写字母YI）表示，这取决于您的操作系统和选项​​（参见下面关于符号的说明）。
+
+它们随机分散在整个[[地牢]]，一般在[[房间]]，没有任何其他的[[地牢地形]]功能（即：[[箱子]]，[[水槽]]）。
+[[
+您可以通过它来[[浸渍]][[物品]]，并[[畅饮]]它的水，可以向下[[挖掘]]。
+
+在非[[特殊层]]的喷泉有1/7（14％）的几率是魔法的，不能在使用前确定属性。[[挖]][[水槽]]将创建一个非魔法喷泉。
+
+<<TableOfContents>>
+
+== 喝泉水 ==
+你可以通过站在泉水上来喝它. 这个动作会产生一条信息来暗示它的后果
+
+=== 魔法泉水magic Fountain ===
+如果那是一个魔法泉水，且你的natural[[运气]]非负的话
+
+==== 信息对照表 ====
+||信息 ||影响 ||几率 ||
+||冰凉一口，提神醒脑"The cool draught refreshes you." ||你的饥饿稍微减少了 ||3/10 ||
+||哦，这让你感觉好多了Wow! This makes you feel great!""A wisp of vapor escapes the fountain..."中译? ||你的[[智力]]锻炼了，且所有能力恢复到最大，（与[[恢复能力药水]]效果相同）。一个属性增加1（与[[未诅咒的]][[获得能力药水]]效果相同）;如果你天生运气是4或更高，这​​最后的效果会增加你所有属性加1（[[祝福]]的药水效果）。这种效果后，喷泉不再是魔法的的。 ||7/10 ||
+
+natural[[运气]]指的是你没有额外携带[[未诅咒的]][[luckstone]]。
+
+在以上任一情况下，喷泉不会干涸。
+
+=== 非魔法泉水Non-magic fountains ===
+如果那是一个非魔法泉水，或者你的运气为负时喝魔法泉水
+||效果||影响||几率||
+||"The cool draught refreshes you."||Your hunger is reduced slightly.||9/30||
+||"This tepid water is tasteless."||No effect||9/30|| 
+||"You feel self-knowledgeable...""The feeling subsides..." || You see your attributes and exercise your wisdom (as with a wand or uncursed potion of enlightenment). ||1/30||
+||"The water is foul! You gag and vomit." || You vomit and your hunger is increased. || 1/30  ||
+||"The water is contaminated!" ("Perhaps it is runoff from the nearby slime mold farm" if poison resistant) || You lose d10 HP and d4+2 STR and your constitution is abused.(if you are not poison resistant)||1/30  ||
+||"Perhaps it is runoff from the nearby <fruit> farm." || You lose d4 HP(if you are poison resistant)||
+||"An endless stream of snakes pour forth!""You hear something hissing!" (if blind)"The fountain bubbles furiously for a moment, then calms." (if moccasins genocided）|| d5+1 water moccasins are created. || 1/30  ||
+||"You unleash a water demon!""You feel the presence of evil." (blind)"Grateful for his/her release, he/she grants you a wish!" (peaceful)"The fountain bubbles furiously for a moment, then calms." (summoning failed)||  A water demon is summoned. It has an (80+DL)/100 chance of being hostile (100% if you have the Amulet); if not hostile, he/she'll grant one wish and then vanish||  1/30||  
+||"You attract a water nymph!""You hear a seductive voice." (blind)"A large bubble rises to the surface and pops." (unblind, water nymphs genocided or extinct)"You hear a loud pop." (blind, water nymphs genocided or extinct) || A water nymph is summoned.|| 1/30 ||
+||"This water's no good!" || Each item in your inventory has 1/5 chance of being cursed outright;your hunger is increased and your constitution is abused. || 1/30  ||
+||"You see an image of someone stalking you. But it disappears.""You feel transparent." (blind, invisible)|"You feel very self-conscious. Then it passes." (blind, not invisible) || You gain see invisible and your wisdom is exercised. || 1/30  ||
+||"You sense the presence of monsters.""You have a strange feeling for a moment, then it passes." (no monsters, beginner, not hallucinating)"You have a normal feeling for a moment, then it passes."(no monsters, beginner, hallucinating)"You feel threatened." (no monsters, not hallucinating)"You get the heebie jeebies." (no monsters, hallucinating) || You briefly see monsters on that level and exercise your wisdom. If no monsters on the level (other than you), no visible effect. || 1/30  ||
+||"You spot a gem in the sparkling waters!" (unblind)"You feel a gem here!" (blind) || You find a random valuable gem or piece of worthless glass and your wisdom is exercised. If you have already acquired gems or gold from this fountain, a nymph is summoned instead (as above).||  1/30  ||
+||"This water gives you bad breath!" || Monsters on the level flee you for a while. || 1/30  ||
+||"Water gushes forth from the overflowing fountain!" (pool created)"Your thirst is quenched." (no pools created) || A number of pools may be created in your vicinity. (Never two orthogonally adjacent, never on your square, the more likely the closer to you.) Be aware that any precious items laying near you may end up at the bottom of a pool!||  1/30  ||

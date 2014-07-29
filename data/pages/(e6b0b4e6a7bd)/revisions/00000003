@@ -1,0 +1,93 @@
+= 水槽 水槽
+
+
+
+水槽是由地牢的一个地形。水槽将使空气中的任何东西他们上面的“下沉”到地板上，无论是投掷武器，或者你处在浮空状态下的角色。当在悬浮状态落入水槽，会伤害你（甚至可能导致死亡，如果你运气不好的话）。坐在一个水槽上将产生“你的臀部变湿。”的消息。踢kick水槽或从它喝水drink会有后果，他们大多负面的，也有很少的有益的后果，戒指掉入水槽水槽将导致他们失去，并有一条消息，使您能够鉴定戒指。在水槽挖下去会变成一个（非魔法）喷泉（然后可以挖下到生产库下料和用来稀释）。
+
+如果目前的地牢层有水槽 ，你偶尔会听到一则消息：
+"You hear a gurgling noise."
+"You hear a slow drip." 
+“你听到潺潺声。”“你听到一个缓慢滴注。”
+
+内容
+<<TableOfContents>>
+
+== 踢水槽 ==
+
+踢水槽有几个可能的影响。
+
+80％的后果是， "Klunk! The pipes vibrate noisily."  。”这个动作dexterityand醒来附近的怪物。
+
+每一次sink，“黑色布丁从口喷出来了！”黑色布丁被召唤，A black ooze gushes up from the drain! 和灵巧的行使。
+
+每一次sink，“洗碗机回报！”洗碗机是异性的英雄，或随机做爱<_-||洗碗机。。。＞foocubus如果主人公是一个中性的生物。敏捷行使。
+
+有时候，“Flupp！马迪废物排放弹出。”每一次下沉，出现这种情况时，“你看环闪耀在其之中”和灵巧与智慧行使。
+
+如果没有这些事情发生，“哎哟！这伤害了！”你失去多达5点生命值，滥用灵巧和力量，并有可能最终有一个受伤的腿。
+
+== 从水槽畅饮 ==
+
+你可以从一个水槽使用quaffcommand站在它，而喝。一旦这样做，你得到一个消息暗示所产生的后果。您收到的具体信息取决于你的状态和dungeonmonsters的条件。
+
+ChanceWhat来到outEffectConditionNetHack message11/20waterno影响你拿的（非常）<hot, warm, cold> water.You听到从管道叮当......你听到歌曲从下水道中抢......你是hallucinatingFrom黑暗的抿了一口漏，一只手最多时达... --oops--1/20scalding waterlose造成1d6点生命值你把滚烫的water.no抿了一口effectyou是火resistantYou采取热水烫抿了一口。它似乎很tasty.1/20a比例下水道老鼠是createdyou可以看到创建ratEek！有一个在水槽的下水道老鼠！你看不到ratEek！有什么东西蠕动中沉沦！nothingno effectSewer大鼠genocided或extinctThe片似乎很dirty.1/20random uncursed potionsame效果，喝了potionyou可以seeSome <potion appearance>从faucet.you液体流动是从水龙头blindSome奇怪的液体流量.1/20random林加随机环被创建和你的智慧行使，你会找到一个环在水槽！脏waterno effectyou已经有了一个环从这个sinkSome脏水备份在drain.1/20nothingThe下沉变成了喷泉。管道破裂！水喷了！创建1/20a水elementalA水元素。水动作本身的意志，仿佛！nothingno effectwater元素生物都是extinctThe水动作，就好像它自己的意志！但它平静下来down.1/20hard waterYou获得1经验值。育，这水的味道awful.1/20sewer waterYour饥饿增加GAGG ...这味道有点像污水！你vomit.1/20toxic wasteYou多形体这种水含有有毒废物！你经历一个畸形的变态！没有effectYou有unchangingThis水中含有的有毒废物！
+
+UnNetHack [编辑]
+
+在UnNetHack，幸运的吸血鬼（无论在开始比赛或被变形的），或倒霉非吸血鬼有1/13的机会获得的吸血鬼血液，而不是随机的药水药水的。此外，药水现在可以是任何BUC的，这取决于运气，具有以下概率：
+
+ - 首先，是被诅咒的魔药的1 /（17 +运气）的机会。
+
+ - 然后，如果它不是诅咒，有被祝福药水的1 /（17  - 幸运）的机会。
+
+ - 然后，如果这些都不发生，药水是uncursed。
+
+识别环带水槽[编辑]
+
+所有的环可以通过拖放到水槽进行标识。水槽将显示的效果取决于环的类型。搜索和消化迟缓相伴的戒指永不丢失;所有其他戒指都将丢失下跌概率为95％的流失。因此，它是一个好主意，只有当你有相同类型的另一环作为一个被测试，或者如果你正在挨饿做这个测试。
+
+收到消息后，您将有机会说出你掉的那种环，但前提是你还没有把它命名。饥饿的环也不会给你机会，如果失败摧毁一个项目。当然，如果你有你扔下环的副本，您可以随时名称来代替。
+
+请注意，大多数的消息需要你是不是盲目的，和饥饿的环需要有一个（最好是不值钱的）对象已经在下沉。如果这些都没有的话，你只会得到“你听到铃声弹跳下来的排水管。”
+
+ringNotesYou中的nethack为messageType想你[环]迷失在下沉，但它是！searchingRing不lostThe环反刍！慢digestionRing不lostThe片向上颤抖的moment.levitationYou闻到腐烂的fruit.poison resistanceStatic电力包围sink.shock resistanceYou听到喧闹声从drain.conflictThe水流未来似乎fixed.sustain abilityThe水流似乎更强now.gain强度（至少+0）水流似乎now.gain强度较弱（-1或更糟）的水流似乎更大now.gain宪法（至少+0）水流似乎较少now.gain宪法（-1或更糟）的水流撞击drain.increase精度（至少+0）水流错过漏。提高精确度（-1或更糟）水的力量似乎更大now.increase损害（至少+0）水的力量似乎now.increase损伤较小（-1或更糟）有几个苍蝇围绕sink.meat ringSeveral嗡嗡苍蝇的嗡嗡声一气之下周围的sink.aggravate怪物
+
+下表中的效果只有当主人公可以看到出现：
+
+的nethack为messageType ringNotesSuddenly，从水槽！hungerAn项目的<item>消失（ES）必须在下沉。有些项目可能会抵制。[1]水龙头闪烁明亮的moment.adornmentDoes分不清负enchantmentThe片看起来不如new.regenerationYou没有看到任何事情发生到sink.invisibilityYou看到环滑动右侧血本无归！免费actionYou看到一些空气中的sink.see invisibleThe片似乎融入地板的moment.stealthThe热水水龙头闪烁明亮的moment.fire resistanceThe冷水龙头闪烁明亮的moment.cold resistanceThe水槽看起来一点也不像一个喷泉。保护从形状changersThe汇银发光的moment.protection（至少+0）水槽的moment.protection呈黑色（-1或更糟）水槽发白色光的moment.warningThe瞬间下沉下沉vanishes.teleportationThe外观就像它正在横梁登上somewhere.teleport controlThe瞬间下沉看起来像一个fountain.polymorphThe水槽暂时看起来像一个定期爆发geyser.polymorph控制
+
+SLASH'EM [编辑]
+
+SLASH'EM有其新环新邮件。[2]需要注意的是智慧和智慧修饰环无法通过下沉坠区别。
+
+ringNotesThe片SLASH'EM为messageType看起来groovy.mood ringYou听到响亮的鼾声从drain.sleepingWorks快到的时候blind.The水流似乎更快now.gain灵巧（至少+0）水流似乎慢now.gain灵巧（ - 1或更糟）的水流似乎更快now.gain智力或获得智慧（至少+0）水流似乎乏味now.gain智力或获得智慧（-1或更糟）
+
+UnNetHack [编辑]
+
+在UnNetHack，滴加多晶型环到水槽会变成水槽变成一个喷泉，祭坛，或王座。此外，滴加隐形传态的一个环到水槽会随机瞬移下沉。
+
+策略[编辑]
+
+从汇畅饮通常是一个危险的赌博没有太多的奖励。充其量你得到一个戒指，你已经可以得到由踢它（这是更安全）。在最坏的情况，你会得到疾病或晶型的药水到的东西会打破你的盔甲。东西坏的几率比的好东西（看可能性图表）的机会显著较高。
+
+在另一方面，踢水槽是相当安全的;提供你过去的经历有关5级你不打算要由foocubus被杀，黑布丁是太过缓慢，以至于他们不会杀你，如果你仔细地移动。事实上，无论是thepudding和foocubus可用于您的利益。
+
+请记住，如果你打算吃首饰，只有金属和木材环是可食用的。既然你无法从非食用环的内部函数，你只需要一个，如果你想要那个外在的磨损;丢弃一个比较下来水槽不花费你很多。
+
+还要注意的是环识别是alwayssafe，如果成本高昂，而你只需要一个单一的片来做到这一点。因此，如果你决定畅饮/踢汇，它在你的最佳利益，至少要有一台完好的水槽为你的戒指。
+
+在UnNetHack，幸运的玩家可能会发现更有价值的汇喝的，因为不是总是给人uncursed药水的效果，随机药水的BUC是随机的，但有运气的变化。此外，幸运的吸血鬼有得到的吸血鬼血液，这可能是一个大福音药水的机会。但是，它仍是一个显著赌博。
+
+参考文献[编辑]
+
+跳起来↑do.c，行324：球和链势必会反抗，而正常的对象将有1％的几率抵抗，文物与99％的机会，和独特的项目和护身符alwaysJump起来↑http://www。 statslab.cam.ac.uk /〜EVA / slashem / rings.html
+
+此页面是基于一个扰流板byDylan奥唐奈。原许可证：
+
+重新分配，复制和编辑这些破坏者，无论修改与否，都允许下列条件：
+
+原来贡献者任何扰流板必须继续credited.Any修改的扰流板必须承认并计入。
+
+￼
+
+ 

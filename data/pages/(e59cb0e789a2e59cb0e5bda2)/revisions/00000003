@@ -1,0 +1,33 @@
+##master-page:CategoryTemplate
+##master-date:2010-11-13T00:52:25Z
+#format wiki
+#language zh
+'''地牢地形'''(dungeon features)是地牢中一个固定的[[方格]](square)上的提供一些有用或没用的功能的物件. 每个方格上有且仅有一个地形. 有些确实是'''地形'''而有些实际上是比较大的物体, 它们通常会占满整个方格.
+
+'''本类的所有页面列表：'''
+
+ * <<Color2("> <",lightgray,black)>> [[楼梯]]([[Staircases]])
+ * <<Color2("> <",brown,black)>>  [[梯子]]([[Ladder]]s)
+ * lightgray _  [[祭坛]]([[Altar]]s)
+ * lightgray #  [[水槽]]([[Sink]]s)
+ * blue {  blue ¶  [[泉水]]([[Fountain]]s)
+ * green #  [[树木]]([[Tree]]s) * magenta ^  [[陷阱]]([[Trap]]s)
+ * brown +  brown -   brown |  [[门]][[Door]]s
+ * brown .  [[门道]]([[Doorway]]s)
+ * lightgray -   lightgray |  [[墙]][[Wall]]s
+ * brown #  [[吊桥]]([[Drawbridge]]s)
+ * cyan #  [[铁栏杆]]([[Iron bars]])
+ * lightgray .  [[地面]]([[Floor]]), 通常在[[房间]]([[room]])里
+ * lightgray #  white #  [[走廊]]([[Corridor]]s)
+ * yellow \  [[王座]]([[Throne]]s)
+ * lightgray |  [[坟墓]]([[Grave]]s)
+ * blue }  [[水域]]([[Water]])
+ * cyan .  [[冰面]]([[Ice]])
+ * red }  [[岩浆]]([[Lava]])
+ * lightgray #  [[云]]([[Cloud]])
+ * black    [[空气]]([[Air]])
+
+<<FullSearchCached(category:分类模板)>>
+
+----
+地牢地形

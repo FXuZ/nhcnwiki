@@ -1,0 +1,42 @@
+= 泉水 =
+泉水 {{attachment:Fountain.png}} ，主要是由<<Color2("{",blue,gray)>>（左大括号）表示的[[地牢地形]]，但可能由<<Color2("¶",blue,gray)>>（pilcrow），<<Color2("⌠",blue,gray)>>（pilcrow)(上半整数）或<<Color2("Ї",blue,gray)>>（西里尔大写字母YI）表示，这取决于您的操作系统和选项​​（参见下面关于符号的说明）。
+
+它们随机分散在整个[[地牢]]，一般在[[房间]]，没有任何其他的[[地牢地形]]功能（即：[[箱子]]，[[水槽]]）。 [[ 您可以通过它来[[浸渍]][[物品]]，并[[畅饮]]它的水，可以向下[[挖掘]]。
+
+在非[[特殊层]]的喷泉有1/7（14％）的几率是魔法的，不能在使用前确定属性。[[挖]][[水槽]]将创建一个非魔法喷泉。
+
+<<TableOfContents>>
+
+== 喝泉水 ==
+你可以通过站在泉水上来喝它. 这个动作会产生一条信息来暗示它的后果
+
+=== 魔法泉水 ===
+如果那是一个魔法泉水，且你的natural[[运气]]非负的话
+
+||信息 ||影响 ||几率 ||
+||冰凉一口，提神醒脑"The cool draught refreshes you." ||你的饥饿稍微减少了 ||3/10 ||
+||哦，这让你感觉好多了Wow! This makes you feel great!""A wisp of vapor escapes the fountain..."中译? ||你的[[智力]]锻炼了，且所有能力恢复到最大，（与[[恢复能力药水]]效果相同）。一个属性增加1（与[[未诅咒的]][[获得能力药水]]效果相同）;如果你天生运气是4或更高，这​​最后的效果会增加你所有属性加1（[[祝福]]的药水效果）。这种效果后，喷泉不再是魔法的的。 ||7/10 ||
+
+
+natural[[运气]]指的是你没有额外携带[[未诅咒的]][[luckstone]]。
+
+在以上任一情况下，喷泉不会干涸。
+
+=== 非魔法泉水 ===
+如果那是一个非魔法泉水，或者你的运气为负时喝魔法泉水
+||效果 ||影响 ||几率 ||
+||"The cool draught refreshes you." 清凉一口，提神醒脑||你的饥饿稍微减少了 ||9/30 ||
+||"This tepid water is tasteless.”这水不温不热 ，一点味道也没有||无效果||9/30 ||
+||"You feel self-knowledgeable..."你感觉更了解自己了"The feeling subsides..." 你感觉平和了||.你能够看见自己的属性并锻炼了智力(就像使用未诅咒的启发之杖和启发药水enlightenment) ||1/30 ||
+||"The water is foul! You gag and vomit." 这水臭了!你堵上嘴呕吐||你呕吐了且饥饿增长了||1/30 ||
+||"The water is contaminated!"这水被污染了!||你失去d10 的HP 和 d4+2 的STR and 你的体质abused.(如果你不具有毒抗性) ||<rowspan=2>1/30||
+||"Perhaps it is runoff from the nearby <fruit>slime mold farm." 也许这是从附近的slimemold农场流出来的||你失去 d4 HP(如果你具有毒抗性) ||
+||"An endless stream of snakes pour forth!"数不清的蛇流了出来!"You hear something hissing!"你听到什么东西发出嘶嘶的声音(如果盲目) "The fountain bubbles furiously for a moment, then calms." 泉水剧烈的冒泡，一会平静下来(如果蛇被灭绝)||产生d5+1 的水蛇 ||1/30 ||
+||You unleash a water demon"你召唤出来水魔神""You feel the presence of evil." 你感受到邪恶的存在"感谢他的释放，他赋予你一个许愿" 友善的)"The fountain bubbles furiously for a moment, then calms." 泉水剧烈的冒泡，一会平静了下来(召唤失败)||一个水魔神被召唤。有 (80+DL)/100的可能是敌对状态 (100% 如果你持有护身符); 如果不是敌对的，他会给你一个许愿然后消失||1/30 ||
+||"You attract a water nymph!""You hear a seductive voice." (blind)"A large bubble rises to the surface and pops." (unblind, water nymphs genocided or extinct)"You hear a loud pop." (blind, water nymphs genocided or extinct) ||A water nymph is summoned. ||1/30 ||
+||"This water's no good!" ||Each item in your inventory has 1/5 chance of being cursed outright;your hunger is increased and your constitution is abused. ||1/30 ||
+||"You see an image of someone stalking you. But it disappears.""You feel transparent." (blind, invisible)|"You feel very self-conscious. Then it passes." (blind, not invisible) ||You gain see invisible and your wisdom is exercised. ||1/30 ||
+||"You sense the presence of monsters.""You have a strange feeling for a moment, then it passes." (no monsters, beginner, not hallucinating)"You have a normal feeling for a moment, then it passes."(no monsters, beginner, hallucinating)"You feel threatened." (no monsters, not hallucinating)"You get the heebie jeebies." (no monsters, hallucinating) ||You briefly see monsters on that level and exercise your wisdom. If no monsters on the level (other than you), no visible effect. ||1/30 ||
+||"You spot a gem in the sparkling waters!" (unblind)"You feel a gem here!" (blind) ||You find a random valuable gem or piece of worthless glass and your wisdom is exercised. If you have already acquired gems or gold from this fountain, a nymph is summoned instead (as above). ||1/30 ||
+||"This water gives you bad breath!" ||Monsters on the level flee you for a while. ||1/30 ||
+||"Water gushes forth from the overflowing fountain!" (pool created)"Your thirst is quenched." (no pools created) ||A number of pools may be created in your vicinity. (Never two orthogonally adjacent, never on your square, the more likely the closer to you.) Be aware that any precious items laying near you may end up at the bottom of a pool! ||1/30 ||

@@ -1,0 +1,34 @@
+##master-page:CategoryTemplate
+##master-date:2010-11-13T00:52:25Z
+#format wiki
+#language zh
+'''地牢地形'''(dungeon features)是地牢中一个固定的[[方格]](square)上的提供一些有用或没用的功能的物件. 每个方格上有且仅有一个地形. 有些确实是'''地形'''而有些实际上是比较大的物体, 它们通常会占满整个方格.
+
+'''本类的所有页面列表：'''
+
+ * <<Color2("> <",lightgray,black)>> [[楼梯]]([[Staircases]])
+ * <<Color2("> <",brown,black)>>  [[梯子]]([[Ladder]]s)
+ * <<Color2("_",lightgray,black)>>  [[祭坛]]([[Altar]]s)
+ * <<Color2("#",lightgray,black)>>  [[水槽]]([[Sink]]s)
+ * <<Color2("{ ¶",blue,black)>>   [[泉水]]([[Fountain]]s)
+ * <<Color2("#",green,black)>>  [[树木]]([[Tree]]s) 
+ * <<Color2("^",magenta,black)>> [[陷阱]]([[Trap]]s)
+ * <<Color2("+ | -",brown,black)>> [[门]][[Door]]s
+ * <<Color2(".",brown,black)>>  [[门道]]([[Doorway]]s)
+ * <<Color2("- |",lightgray,black)>>  [[墙]][[Wall]]s
+ * <<Color2("#",brown,black)>> [[吊桥]]([[Drawbridge]]s)
+ * <<Color2("#",cyan,black)>>   [[铁栏杆]]([[Iron bars]])
+ * <<Color2(".",lightgray,black)>>  [[地面]]([[Floor]]), 通常在[[房间]]([[room]])里
+ * <<Color2("#",white,black)>>  [[走廊]]([[Corridor]]s)
+ * <<Color2("\",yellow,black)>>  [[王座]]([[Throne]]s)
+ * <<Color2("|",lightgray,black)>>  [[坟墓]]([[Grave]]s)
+ * <<Color2("}",blue,black)>>  [[水域]]([[Water]])
+ * <<Color2(".",cyan,black)>>  [[冰面]]([[Ice]])
+ * <<Color2("}",red,black)>>  [[岩浆]]([[Lava]])
+ * <<Color2("#",lightgray,black)>>  [[云]]([[Cloud]])
+ * <<Color2("` `",black,black)>>    [[空气]]([[Air]])
+
+<<FullSearchCached(category:分类模板)>>
+
+----
+地牢地形

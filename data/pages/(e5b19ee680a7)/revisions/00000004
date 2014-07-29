@@ -1,0 +1,430 @@
+== 属性 ==
+一个角色的'''属性'''表示一个角色某些方面的能力.
+
+[[nethack]]中每个角色有6个属性, 沿袭了[[龙与地下城]]([[Dungeons & Dragons]], 或者缩写成DnD)的传统.
+
+<<TableOfContents>>
+
+== 力量(Strength) ==
+角色的'''力量'''可以让[[角色]]在[[物品栏]]中放更大[[重量]]的物品. 同样, 力量更大的角色可以在[[近战]]肉搏中造成更大的伤害, 也可以让角色把物品[[扔]]得更远. '''Strength''' corresponds to the ability to have more [[weight]] in [[you]]r [[inventory]]. Also, the stronger you are the more damage you do in melee combat and the farther you can [[throw]] objects.
+
+和其他所有的属性一样, 力量取值是在3到25之间的. 不过, 和[[龙与地下城]]早期版本一样, 在力量取值18到19之间的时候, 力量值会采用一个''百分数''的表示方式, 而并不是像其他属性一样直接从18跳到19. 比如表示成18/35的力量值表示你的力量在大约18到19的35%位置. 角色的种族决定了这个角色的力量上限, 这个数值可能是18, 18/50或者18/**(这就表示18/100), 而19以上的力量只有使用[[力量手套]]或者[[增加力量戒指]]才可能达到. 不过在游戏中, 大多数情况下18/**和25的力量并没有明显的区别. 当然如果你的[[体质]]数值不到17的话, 25的力量可以让你的[[负重]]增加, 同样25的力量也可以让你把物品[[扔]]或者[[踢]]到更远的地方, 同时也只有25力量的角色可以扔出[[雷神之锤]]([[Mjollnir]]). Like all attributes, strength ranges between 3 and 25. However, as in early editions of Dungeons and Dragons, strength has the unique property that values between 18 and 19 are given in ''percentage'' terms rather than jumping straight from 18 to 19 as with other attributes. For example, a strength of 18/35 means roughly that one is 35% of the way between 18 strength and 19 strength. Depending on race, characters can attain a maximum strength of 18, 18/50 or 18/** (which stands for 18/100) in their natural form, and need [[gauntlets of power]] or a [[ring of gain strength]] to increase strength to 19 or more. However, for gameplay purposes, there are not very many differences between a strength of 18/** and a strength of 25. Specifically, increasing your strength from 18/** to 25 will increase your [[encumbrance|carrying capacity]] (but only if your Constitution is less than 17), make objects [[throw]]n or [[kick]]ed by you travel further, and allow you to throw [[Mjollnir]] if you have it.
+
+=== 力量的用途 ===
+下面的这些动作会对力量有要求:
+
+ * 施放[[法术]]你需要至少4的力量.
+
+To cast [[spells]], you need strength of at least 4.
+
+ * [[跳跃]](除非使用[[跳跃法术书|跳跃法术]])或者[[瞬间移动]]需要至少6的力量.
+
+To [[jump]] (except with [[spellbook of jumping|the spell]]) or do self-[[teleportation]], you need strength of at least 6.
+
+ * 折断一根[[魔杖]]需要至少10的力量.
+
+To break a [[wand]], you need strength of at least 10.
+
+ * 扔出雷神之锤需要至少25的力量.
+
+To throw [[Mjollnir]], you need strength of 25.
+
+力量数值同时影响下面这些动作: Strength affects the following activities:
+
+ * 至少18的力量可以加速从[[捕兽夹]]([[bear trap]])中挣脱.
+
+Strength of at least 18 speeds escape from a [[bear trap]].
+
+ * 更大的力量通常可以让你在不[[负重]]的条件下在物品栏中背更多东西.
+
+Greater strength usually allows you to carry more inventory without being [[encumbrance|encumbered]].
+
+ * 更大的力量可以加速设置[[捕兽夹]].
+
+Greater strength speeds setting a [[bear trap]].
+
+ * 更大的力量可以加速从[[蜘蛛网]]([[web]])中挣脱.
+
+Greater strength speeds escape from a [[web]].
+
+ * 更大的力量可以加速[[挖掘]].
+
+Greater strength increases [[digging]] speeds.
+
+ * 较大的力量可以让你更容易[[踢]]开一扇[[门]]或者[[暗门]].
+
+Greater strength makes it more likely to [[kick]] open a [[door]] or [[secret corridor]].
+
+ * 更大的力量可以让你在[[踢]]一个怪物的时候造成更多伤害.
+
+Greater strength increases damage done to monsters when [[kick]]ing them.
+
+ * 更大的力量可以让你更容易打开或者关上一扇[[门]]
+
+Greater strength makes it more likely to successfully open or close a [[door]].
+
+ * 更大的力量会让[[店主]]在你挖坏商店的墙的时候找你要更多的赔偿.
+
+Greater strength makes a [[shopkeeper]] charge you more for destroying a shop wall.
+
+ * 更大的力量会增加[[扔]]东西的距离.
+
+Greater strength increases the range for [[throw]]ing objects.
+
+ * 更大的力量可以加速开[[罐头]].
+
+Greater strength speeds opening [[tin]]s.
+
+ * 18以上的力量的角色在踢开一扇门的时候有一定概率会把门踢碎而不只是把门踢坏.
+
+Strength greater than 18 makes it possible to shatter a door when kicking it instead of just breaking it open.
+
+ * 更大的力量可以提高角色在角色在战斗中的精确度和伤害, 具体数值如下表所示:
+
+Greater strength allows better accuracy when fighting and increases damage per hit, as shown by the following table:
+
+ ||力量 ||to-hit ||伤害 ||
+ ||3–5 ||-2 ||-1 ||
+ ||6–7 ||-1 ||0 ||
+ ||8–15 ||0 ||0 ||
+ ||16 ||0 ||+1 ||
+ ||17 ||+1 ||+1 ||
+ ||18 ||+1 ||+2 ||
+ ||18/01–18/50 ||+1 ||+3 ||
+ ||18/51–18/75 ||+2 ||+3 ||
+ ||18/76–18/90 ||+2 ||+4 ||
+ ||18/91–18/99 ||+2 ||+5 ||
+ ||18/**–25 ||+3 ||+6 ||
+
+
+ To-hit的调整适用于所有的近战肉搏, 除非是使用了会被打碎的[[镜子]], [[鸡蛋]], [[奶油派]], [[致盲毒液]]或者[[酸性毒液]]. 并且力量不影响从发射器中发射出的物品.
+
+The to-hit adjustment applies to all melee attacks. The damage adjustment affects melee and thrown weapons unless attacking with [[mirror]]s that break, [[egg]]s, [[cream pie]]s,{{refsrc|uhitm.c|849|name=venom_pie_no_dbon}} [[blinding venom]],<ref name="venom_pie_no_dbon"/> or [[acid venom]]. It does not affect items fired from a launcher.
+
+=== 游戏公式中的力量 ===
+ . 游戏中的某些公式要求力量是3到25的整数, 而不能是一个分数. 于是当出现这样的公式时, [[nethack]]会把18/01到21的力量按照下表映射成整数. Some of the game formulas require Strength to be an integer between 3 and 25 (without percentages). When that is needed, NetHack will map strengths between 18/01 and 21 as follows: ||力量 ||映射成 || ||18/01–18/31 ||19 || ||18/32–18/81 ||20 ||
+ ||18/82–18/** ||21 ||
+
+
+
+这个映射会在下面的几种情况下用到: This mapping is used for:
+
+ * 计算[[负重]]
+  . Calculating [[Encumbrance|carrying capacity]]
+ * 计算被[[扔]]或者[[踢]]出的物品会飞出多远, 比如一个扔出的[[匕首]]的射程是 Str/2 格(Str是力量),
+  . 于是18/31的力量可以扔出9格远(19/2向下取整), 但是如果力量是18/32, 你可以把匕首扔出10格远(20/2向下取整).
+ Calculating the maximum distance traveled by [[throw|thrown]] or [[kick|kicked]] objects
+
+For example, the maximum range of a thrown [[dagger]] is Str/2 squares. Thus, if your strength is 18/31, you can throw a dagger 9 squares (19/2 rounded down), but if your strength is 18/32, you can throw it 10 squares (20/2 rounded down).
+
+=== 改变力量的行为 ===
+下面这些行为会增加力量: Strength may increase when:
+
+ * 吃[[巨人]]的[[尸体]].
+  . you eat a [[giant]] [[corpse]]
+ * 吃非诅咒的[[蜂王浆]]或者一罐[[菠菜]](“你感觉你好像大力水手!”, “You feel like Popeye!”)
+  . you eat non-cursed [[royal jelly]]{{refsrc|eat.c|1692|name=royal jelly}} or [[spinach]]{{refsrc|eat.c|1122|name=spinach}} ("you feel like Popeye!")
+ * 你至少是[[营养|虚弱]]的时候吃东西或者[[祈祷]], 并且不再是虚弱状态.
+  . you are at least [[Nutrition|weak]], and eat or pray, and are no longer weak
+ 下面这些行为会降低力量:
+
+Strength may decrease when:
+
+ * 你饥饿到了虚弱的状态
+
+you become hungry to the point of being weak
+
+ * 你中了怪物的[[力量吸取]]法术
+
+you are affected by the [[drain strength]] monster spell
+
+ * 你中[[毒]]了
+
+you are [[poison]]ed
+
+ * 你吃了诅咒的[[蜂王浆]]或者[[菠菜]]
+
+you eat cursed [[royal jelly]]<ref name="royal jelly"/> or [[spinach]]<ref name="spinach"/>
+
+同样你也有很多方法去[[锻炼]]你的力量. 一个流行的方法就是推[[巨石]].(比如当你需要休息回复体力的时候, 你可以在这段时间里面在比较高的地牢楼层里面来回推动一个[[巨石]]) There are many ways to [[exercise]] your strength. One popular way is to push [[boulder]]s around. (One possibility: whenever [[you]] need to heal, spend your time pushing a boulder back and forth at one of the higher dungeon levels.)
+
+=== 消息提示 ===
+=== Exercising and abusing strength ===
+下面的这些行为可以锻炼力量: Strength is exercised by the following:
+
+ * 变成[[重压]]([[stressed]])或者[[重负]]([[strained]])状态(每10回合一次)
+
+Being [[stressed]] or [[strained]] (once every ten turns)
+
+ * 通过吃[[回复戒指]]而有内禀属性[[回复]](每5回合一次)(只是戴上戒指或者手持[[阿斯克勒庇俄斯之杖]]([[the Staff of Aesculapius]])获得的回复属性'''不会'''锻炼力量)
+
+Having intrinsic [[regeneration]] from eating a [[ring of regeneration]] (once every five turns) (wearing a ring or wielding [[the Staff of Aesculapius]] does '''not''' exercise strength)
+
+ * [[踢]][[门]], 不论是否成功踢开, 除非你把一扇有诡雷陷阱的门踢开并让它爆炸, 你都会锻炼力量.
+
+[[Kicking]] a [[door]], whether or not you succeed in opening it, unless you cause a booby trapped door to explode
+
+ * [[扔]]一个[[铁球]]或者一块[[巨石]](当你是一个[[巨人]]的时候)
+
+[[Throw]]ing a [[heavy iron ball]] or a [[boulder]]
+
+ * 推动一块[[巨石]]
+
+Pushing a boulder
+
+ * 试图用钝器强行打开一个[[锁]], 不论是否成功(使用锐器可以锻炼灵活度)
+
+Trying to [[force]] a [[lock]] using a blunt weapon, whether or not you succeed (using a bladed weapon exercises dexterity)
+
+ * 试图打开或者关上一扇门, 并且门没动
+
+Attempting to open or close a door, which resists
+
+ * 当被[[护士]]治疗的时候(1/3的机会)
+
+Being healed by a [[nurse]] (one in three chance)
+
+ * 和一个[[魅魔]]。。。并得到"You fewl restored to health"信息的时候。
+
+Consorting with a [[foocubus]] and getting the "You feel restored to health!" message
+
+ * Being healed by [[fire]] as an [[iron golem]], or by [[lightning]] as a [[flesh golem]]
+ * Drinking a [[potion of extra healing]] or [[potion of full healing|full healing]]
+ * Reading a non-cursed [[scroll of enchant armor]] while not wearing armor
+ * Attacking a monster in melee
+
+Strength is abused by the following:
+
+ * Being [[weak]] from hunger on a turn whose number is a multiple of 10
+ * Being hit or dragged by an [[iron ball]] while descending stairs
+ * Hurting your leg by [[kicking]]
+ * Straining a muscle when kicking at empty space
+ * Kicking a booby trapped door, causing it to explode
+ * Being hurt in any kind of explosion
+ * Being choked or crushed by a monster's attack
+ * While polymorphed into a [[black pudding|black]] or [[brown pudding]], being divided by a monster's attack
+ * Having your leg pricked by a [[xan]]
+ * Being burned by an [[acid]] attack, including an engulfing attack and a breath attack, without acid resistance
+ * Being subjected to a monster's acid passive attack
+ * Being digested (without [[slow digestion]])
+ * Being pummeled by debris (by an [[air elemental]])
+ * Consorting with a foocubus, and getting the "You feel exhausted" message
+ * Breaking out of your armor when [[polymorph]]ing
+ * Reading a cursed [[scroll of enchant armor]] while not wearing armor
+ * Reading a [[scroll of destroy armor]] while not wearing armor, if you are [[confusion|confused]], or the scroll is non-cursed
+ * Sitting while trapped in a [[spiked pit]]
+ * Being choked by an [[amulet of strangulation]] (once every turn)
+ * Being hit by a [[falling rock trap|falling rock]]
+ * Falling into a [[pit]], [[spiked pit|spiked]] or not
+ * Zapping yourself with a [[wand of striking]] or a force bolt spell
+ * Being hit by a [[magic missile]] (but not if you zapped yourself or the attack is passive)
+
+== Dexterity ==
+'''Dexterity''' has a multitude of effects, of which the most significant is probably that it affects your chance of hitting monsters, whether in melee combat or with a missile or spell.
+
+There is no direct way to increase your intrinsic dexterity apart from drinking a blessed [[potion of gain ability]] (or the corresponding [[fountain]] effect) which increases all stats by one.  However, there are ways to [[exercise]] it, for example repeatedly picking locks.  It is also exercised by fighting monsters, disarming traps, and reading a non-cursed [[Scroll of enchant weapon]] while not wielding a weapon.
+
+Be aware that dexterity is easy to [[abuse]].  If you are trying to train it up, avoid being satiated and do not allow yourself to become strained or overtaxed.  Being stunned, paralyzed, or having wounded legs is also bad for dexterity.
+
+A pair of [[gauntlets of dexterity]] magically increases (or decreases) [[you]]r dexterity by the amount of its enchantment, to a maximum of 25.
+||<tableclass="prettytable striped">dexterity ||to-hit ||
+||3 ||-3 ||
+||4-5 ||-2 ||
+||6-7 ||-1 ||
+||8-14 ||0 ||
+||15 ||+1 ||
+||16 ||+2 ||
+||17 ||+3 ||
+||18 ||+4 ||
+||19 ||+5 ||
+||20 ||+6 ||
+||21 ||+7 ||
+||22 ||+8 ||
+||23 ||+9 ||
+||24 ||+10 ||
+||25 ||+11 ||
+
+
+
+
+ . Messages When your dexterity changes through [[exercise]] or abuse you will receive the message:
+
+ . You feel agile! You must have been working on your reflexes.
+
+If it goes up, and:
+
+ . You feel clumsy! You haven't been working on your reflexes.
+
+if it goes down.
+
+ . Exercising and abusing dexterity
+
+Dexterity is exercised by the following: * Successfully [[kick]]ing a monster * Uncovering or opening a [[secret door]] by kicking * Uncovering a secret corridor by kicking * Destroying a throne by kicking it * Kicking an altar (which is a bad idea) * Kicking a fountain * Kicking a sink without hurting your leg * [[Kick]]ing [[fruit]] out of a [[tree]] * Kicking a closed or locked [[door]] * Successfully catching a returning [[boomerang]] * Hitting a monster by throwing a weapon, weapon-tool, gem, [[heavy iron ball]] or [[boulder]] * Trying to move without levitation or flying on the [[Plane of Air]], failing, and getting the "It's hard to walk in thin air" message * Using an unlocking tool to try to lock or unlock a closed door, box or chest, whether or not you succeed * Trying to [[force]] a [[lock]] using a bladed weapon, whether or not you succeed, even if the weapon breaks (using a blunt weapon exercises strength) * Playing a [[flute]] or [[harp]] (magic or wooden) * Spinning a [[web]], when polymorphed into a spider * Casting the [[haste self]] spell or quaffing a potion of speed, or breathing the potion's vapors * Gaining intrinsic [[speed]] from a [[wand of speed monster]] * Attempting to disarm a container or door trap (whether or not you succeed) * Hitting a monster in melee, unless you are engulfed and would have missed if you had not been engulfed * Stealing gold from a monster, when polymorphed into a leprechaun * Reading a non-cursed [[scroll of enchant weapon]], while not wielding a weapon or weapon-tool
+
+Dexterity is abused by the following: * Being [[satiated]] on a turn whose number is a multiple of 10 * Being [[strained]] or [[overtaxed]] (once every ten turns) * Having [[wounded legs]] (unless you are riding), [[fumbling]], or being [[stun]]ned (once every five turns) * Missing wildly when kicking a tiny, non-flying monster while levitating * Hurting your leg by kicking * Kicking at empty space (whether or not you strain a muscle) * [[Levitation|Levitating]] over a sink and falling * Bumping into a closed door * Trying to move without levitation or flying on the [[Plane of Air]], failing, and getting the "You tumble in place" message * Losing intrinsic speed through a monster attack or a [[wand of slow monster]] * Being hit by a [[paralyzing]] attack, without free action (including a [[gelatinous cube]]'s passive attack, but not a [[floating eye]]'s) * Having your leg pricked by a [[xan]] * Quaffing a [[potion of paralysis]], or breathing the potion's vapors, without [[free action]] * Breathing the vapors of a [[potion of sleeping]], without free action or [[sleep resistance]] * [[Stoning|Turning to stone]] (once every turn) * [[Sliming|Turning to slime]] (once every turn) * Being caught in one of the following traps: [[bear trap]], [[pit]] (spiked or not), paralysis container trap (without free action) or triggering a [[land mine]] * Reading a cursed [[scroll of enchant weapon]], while not wielding a weapon or weapon-tool
+
+ . Constitution
+
+Having a high '''constitution''' increases your healing rate and the number of [[HP]] you gain when levelling up and  allows you to carry more [[weight]] in your [[inventory]].
+
+Constitution is exercised by keeping from being hungry and is increased when you sleep with a [[foocubus]] and "feel good enough to do it again."
+||<tableclass="prettytable striped">Constitution ||hp/level bonus ||
+||3 ||-2 ||
+||4-6 ||-1 ||
+||7-14 ||0 ||
+||15-16 ||+1 ||
+||17 ||+2 ||
+||18 ||+3 ||
+||>18 ||+4 ||
+
+
+
+
+Above level 9, higher constitution can also help you regenerate more HP every 3 turns. Specifically, having 13 or more constitution regenerates a random amount of HP from 1 to your current constitution which is then capped by level - 9, so to gain more than 1 HP on these turns you must be at least level 11.
+
+Constitution is one of the easier stats to exercise; the easiest way is simply to have a hunger status of "Not Hungry".
+
+=== Messages ===
+When you gain a point in constitution by exercising, it will say:
+
+ . You feel tough! You must be leading a healthy life-style.
+
+When you lose a point in constitution by exercising, it will say:
+
+ . You feel fragile! You haven't been watching your health.
+
+=== Exercising and abusing ===
+constitution Constitution is exercised by the following: * Having a hunger status of "Not hungry" on a turn whose number is a multiple of 10 * Being healed by a [[nurse]] (one in three chance) * Consorting with a [[foocubus]] and getting the "You feel raised to your full potential" or "You feel good enough to do it again" message * Drinking [[holy water]], as a non-chaotic hero, unless polymorphed into an undead or demon * Drinking [[unholy water]], as a chaotic hero, or polymorphed into an undead or demon * Drinking or breathing the vapors of a potion of [[Potion of healing|healing]], [[Potion of extra healing|extra healing]] or [[Potion of full healing|full healing]] * Reading a non-cursed [[scroll of enchant armor]] while not wearing armor * Digesting a monster (other than a [[green slime]]) * Eating a non-cursed [[flint stone]] (but this is impossible in Vanilla NetHack)
+
+Constitution is abused by the following: * Having a nutrition status of "[[Fainting]]" or "Fainted" on a turn whose number is a multiple of 10 * Being [[overtaxed]] (once every ten turns) * Being [[sickness|sick]], including both fatal illness and food poisoning, and non-fatal [[vomiting]] (once every five turns) * Vomiting (every turn, in addition to the abuse from the previous item) * Being unable to move while encumbered and with low hit points * Passing out from exertion when heavily encumbered * Having an object "drop from your grasp" when attempting to throw it while encumbered and with low hit points * [[Choking]] from overnutrition (even if you have [[magical breathing]]) * Drinking from a [[fountain]] and getting one of the following effects: contaminated water (without poison resistance), curse items ("this water's no good!") * Falling onto a [[sink]], if there is a weapon or weapon-tool on the sink * Being hit by a monster attack that causes [[lycanthropy]],, or by [[Famine]]'s hunger-inducing attack * Consorting with a [[foocubus]] and getting the "You feel drained of energy" or "You are down in the dumps" message * Being hit by a silver object thrown at you by a monster, while polymorphed into a silver hater * Suffering a [[system shock]] when attempting to polymorph * Polymorphing * Becoming deathly sick, or making your sickness worse, or only partly curing your sickness * Drinking [[holy water]], as a chaotic hero, or polymorphed into an undead or demon * Drinking [[unholy water]], as a non-chaotic hero, unless polymorphed into an undead or demon * Drinking a non-blessed [[potion of sickness]], as a non-[[Healer]]  * Drinking a [[potion of acid]] (unless acid resistant) * Breathing the vapors of a potion of sickness (as a non-Healer), or a [[potion of polymorph]] * Being turned back to your natural form, by [[pray]]ing to a non-chaotic god while polymorphed into an undead * Reading a cursed [[scroll of enchant armor]] while not wearing armor * Reading a [[scroll of destroy armor]] while not wearing armor, if you are [[confusion|confused]], or the scroll is non-cursed * [[Sit]]ting on a [[throne]] and getting the electric shock effect * Being caught in a poison gas or poison needle [[container trap]], or by a booby trapped door or tin * Being zapped by a [[wand of lightning]], either by yourself or by a monster, while not shock resistant
+
+== Intelligence ==
+'''Intelligence''' is useful for [[read]]ing [[spellbook]]s, for spellcasting (unless you are a Healer, Knight, Monk, Priest or Valkyrie, in which case it is wisdom that affects your chances of successfully casting a spell) and for encounters with [[foocubi]]. [[Mind flayer]]s have a brain-eating attack that can drain your intelligence; if you are hit by a successful brain-eating attack when your base intelligence is already 3, you die of [[brainlessness]].
+
+Intelligence cannot be [[exercise]]d but can be increased by drinking a blessed [[potion of enlightenment]] or a [[potion of gain ability]]. It can also be increased by wearing a [[helm of brilliance]]. If you eat a mind flayer corpse, there is a 50% chance your intellegence will be increased by one point (you will get the message "For some reason, that tasted bland." if your intelligence is already at maximum.)
+
+== Wisdom ==
+A Healer, Knight, Monk, Priest or Valkyrie requires '''wisdom''' to cast [[spell]]s.  Wisdom is not particularly important to other classes, though it affects how fast your [[power]] regenerates (hence is fairly important for wizards) and how much power you gain when levelling up.
+
+Wisdom is one of the easiest stats to maximize.  Many activities exercise it, including engraving [[Elbereth]] and successful searching.  It can also be increased by sleeping with a [[foocubus]] and getting the "You will always remember the foocubus" message.
+
+=== Messages ===
+When your wisdom changes through [[exercise]] or abuse you will receive the message:
+
+ . You feel wise!  You must have been very observant.
+
+If it goes up, and:
+
+ . You feel foolish!  You haven't been paying attention.
+
+if it goes down.
+
+=== Exercising and abusing Wisdom ===
+Wisdom is exercised by the following: * Completing the study of a [[spellbook]] (and more so if it refreshes memory of an already known spell) * Successfully casting a spell * [[Chat]]ting to a coaligned [[aligned priest|priest]] with a good [[alignment record]] but no [[zorkmid|money]] * [[Donating to priests|Donating]] more than half your gold to a priest, but less than 200 times your level * Being [[weak]] with hunger as a [[monk]] on a turn whose number is a multiple of 10 * Being [[clairvoyance|clairvoyant]] (once every five turns) * [[Zap]]ping a [[wand]] (except at yourself) or casting one of the following spells that duplicates a wand effect (except at yourself), and also  (which the relevant source claims is a duplicate of a wand effect, even though it isn't). * Zapping or engraving with a [[wand of enlightenment]] (if it is zapped, this is in addition to the exercise from the previous item) * Attempting to [[polymorph]] into a [[genocide]]d species * Succeeding in polymorphing into a monster * In a [[lycanthropy|lycanthropic]] form, calling upon your brethren for help * Touching your [[quest artifact]] for the first time * Failing to enter the [[quest]] due to being too low a level or (except if you are locked out of the quest as a result) too low an alignment * Unlocking the quest * Discovering a [[trap]] on an object or door * [[Quaffing]] [[holy water]] while not chaotic, nor in an undead or demonic form * Quaffing a noncursed [[potion of enlightenment]], or getting the effect from a [[fountain]] * Sensing at least one monster or object with the appropriate detection potions, or the equivalent spells * Detecting [[gold detection|gold]], [[food detection|food]], or [[magic mapping|the map layout]] via any means * Quaffing a [[potion of gain energy]], even if cursed * Quaffing burning [[potion of oil|oil]], when polymorphed into a monster that likes fire * Removing [[erosion]] from an object using a potion of oil * Successfully refilling an [[oil lamp]] * Being told a true [[rumor]] (more so if it came from the [[Oracle]]) * Getting a non-cheapskate [[major consultation]] * [[Kick]]ing [[fruit]] out of a [[tree]] * Finding a [[ring]] in a [[sink]], by kicking or quaffing * Succeeding in [[magic marker|writing]] a scroll or spellbook, or failing merely because the marker dried out in the process * Giving a name to all objects of a given type, via [[name|#name]] or when you see the object break (only one exercise for each type of item.   * Being told the amount you will have to pay for using an unpaid item in a shop * Reading a non-[[scroll of blank paper|blank]] [[scroll]] * Getting the "You will always remember the foocubus…" (in addition to the Wisdom gain) or "That was a very educational experience!" result from sex * [[Sacrificing]] a corpse * As a [[demon]], sacrificing a corpse of your own race * Successfully converting an [[altar]] * Gaining an [[artifact]] [[gift|from your god]] or from a fountain * Attempting to [[turn undead]] with a receptive god (regardless of whether the attempt succeeds or fails for other reasons) * Calling demons as a side-effect of melee attack when polymorphed * Eating a brain, when polymorphed into a (regular or master) [[mind flayer]] * Finding a gem or coins in a [[fountain]] * Gaining abilities from a magical fountain * Gaining the [[see invisible]] intrinsic from a fountain * Detecting monsters using a fountain * Casting the [[teleport away]] spell using  * Engraving [[Elbereth]] with the correct capitalisation * Trying to open the [[Castle]] [[drawbridge]] using music (even if the wrong tune is played) * Finding a trap (except a [[statue trap]] that fails to activate), [[secret door]], [[secret corridor]], or unseen monster via [[searching]] * Eating a non-cursed [[trident]]
+
+Wisdom is abused by the following: * Casting a spell at a location (such as skilled [[fireball]] or [[cone of cold]]) while [[engulfing|engulfed]] * Forgetting a spell due to [[amnesia]] * Being hit by divine lightning when attacking an [[aligned priest]] * Being [[satiated]] as a monk on a turn whose number is a multiple of 10 * Being [[confused]] or [[hallucinating]] (once every five turns) * Trying to [[saddle]] a [[foocubus]] * While trapped, [[sit]]ting in the trap to extend the length of time you are trapped * Accidentally triggering a trap while trying to [[untrap]] it * Quaffing a [[potion of booze]] * Quaffing a [[cursed]] potion of enlightenment * Quaffing a potion of oil, except when it's burning and you are polymorphed into a monster that likes fire * Dipping an object into oil, unless it removes erosion from that object * Trying to refill an oil lamp while either it or the oil is burning * Trying to buy a major consultation from the Oracle without enough money * Trying to [[magic marker|write]] on paper which already has something written on it * Reading a [[scroll of amnesia]] * Being hit by a [[mind flayer]]'s intelligence-draining attack * Receiving the "your senses are dulled" message from an attempt to have sex, in addition to the Wisdom drain * Being [[artifact blast|blasted by an artifact]] * When not chaotic, sacrificing a corpse of your own race * Failing in an attempt to convert an altar (in addition to the luck penalty) * In a demonic or undead form, calling upon a non-chaotic god to [[turn undead]] (or any sufficiently angry god in any form) * Throwing an [[egg]] at a monster (except if it's a [[cockatrice egg]] or it turns to stone upon impact) * [[Dipping]] for [[Excalibur]] when not [[lawful]], if you would have got the artifact if you were lawful * Losing money bathing in a fountain * Robbing a [[grave]] * Creating undead by engraving on a gravestone * Attempting to pick up or otherwise acquire a [[Riders|Rider]] corpse * Using (non-tonally) a [[tooled horn]], [[bugle]], or [[leather drum]] * Being told a false [[rumor]]
+
+== Charisma ==
+'''Charisma''' is mostly useful for obtaining better prices at [[shop]]s.  It also helps with [[foocubus]] encounters, both by increasing the chance of a positive result and by giving more control over whether they remove your armor.
+
+Charisma is a difficult stat to increase, as it cannot be exercised.  It can be extrinsically increased by wearing a charged [[ring of adornment]] or intrinsically boosted by successfully eating one in a valid polymorphed form. You can also gain charisma by triggering a [[magic trap]], so some players deliberately trigger magic traps until they explode, a strategy known as the "magic trap boogie".  However, this can be dangerous - many monsters will be summoned, and the towers of flame will reduce your maximum HP unless you have [[fire resistance]]. Making sure your [[potion of gain ability]] is blessed before quaffing it is probably the easiest and safest way to increase this stat to maximum.
+||<tableclass="prettytable striped">Charisma ||Price ||
+||3-5 ||×2 ||
+||6-7 ||×1.5 ||
+||8-10 ||×1.33 ||
+||11-15 ||×1 ||
+||16-17 ||×0.75 ||
+||18 ||×0.67 ||
+||19-25 ||×0.5 ||
+
+
+
+
+== Maximum attributes ==
+You can increase strength, dexterity, constitution and wisdom through [[exercise]], and adjust all six stats through other means such as [[potion of gain ability|potions of gain ability]]. Some magic items, like the [[helm of brilliance]], [[gauntlets of power]] and [[gauntlets of dexterity]], allow you to exceed these maximums. In fact, such items are common in [[ascension kit]]s.
+
+The maximum stats for each race are:
+||<tableclass="prettytable sortable striped jquery-tablesorter"class="headerSort">Race ||<class="headerSort">Strength ||<class="headerSort">Dexterity ||<class="headerSort">Constitution ||<class="headerSort">Intelligence ||<class="headerSort">Wisdom ||<class="headerSort">Charisma ||
+
+
+||<tableclass="prettytable sortable striped jquery-tablesorter">Human ||18/** ||18 ||18 ||18 ||18 ||18 ||
+||Elf ||18 ||18 ||16 ||20 ||20 ||18 ||
+||Dwarf ||18/** ||20 ||20 ||16 ||16 ||16 ||
+||Gnome ||18/50 ||18 ||18 ||19 ||18 ||18 ||
+||Orc ||18/50 ||18 ||18 ||16 ||16 ||16 ||
+
+
+
+
+== NetHack brass ==
+''You can ignore this section unless you play the variant called NetHack brass.''
+
+[[NetHack brass]] implements different maximum attributes per role. Find your maximum attributes by looking for your role in the next table, then applying the racial modifiers. Humans have +2 to strength. All [[hero]]es have a minimum of 3 for each attribute. The entries with the exclamation marks are the spellcasting stats for each role.
+||<tableclass="prettytable sortable striped jquery-tablesorter"class="headerSort">Role ||<class="headerSort">Strength ||<class="headerSort">Dexterity ||<class="headerSort">Constitution ||<class="headerSort">Intelligence ||<class="headerSort">Wisdom ||<class="headerSort">Charisma ||
+
+
+||<tableclass="prettytable sortable striped jquery-tablesorter">Archeologist ||16 ||10 ||17 ||''19!'' ||18 ||19 ||
+||Barbarian ||18/** ||18 ||20 ||''12!'' ||16 ||10 ||
+||Caveman ||18/** ||18 ||20 ||''14!'' ||16 ||15 ||
+||Healer ||12 ||19 ||19 ||19 ||''19!'' ||18 ||
+||Knight ||18/50 ||13 ||18 ||17 ||''19!'' ||19 ||
+||Monk ||10 ||20 ||20 ||18 ||''20!'' ||18 ||
+||Priest ||18 ||15 ||18 ||17 ||''20!'' ||18 ||
+||Ranger ||17 ||21 ||13 ||''19!'' ||16 ||19 ||
+||Rogue ||18 ||20 ||17 ||''17!'' ||17 ||16 ||
+||Samurai ||18/50 ||20 ||19 ||''15!'' ||15 ||15 ||
+||Tourist ||17 ||15 ||18 ||''19!'' ||19 ||19 ||
+||Valkyrie ||18/** ||16 ||20 ||12 ||''17!'' ||16 ||
+||Wizard ||10 ||19 ||16 ||''20!'' ||20 ||18 ||
+
+
+
+
+=== Racial modifiers ===
+To find your maximum attributes in [[NetHack brass]], after finding your role in the above table, you must apply the racial modifiers of the below table. These racial modifiers apply only to the ''maximum'' attributes of each player, not the initial attributes.
+
+An elven Ranger of NetHack brass, for example, can reach 19+1 = 20 in charisma by increasing charisma one more time after a human Ranger would have maxed at 19.
+
+For strength modifiers only, a +1 raises 18 to 18/50, while a +2 raises 18 to 18/** or 17 to 18/50.
+||<tableclass="prettytable striped">Race ||Strength ||Dexterity ||Constitution ||Intelligence ||Wisdom ||Charisma ||
+||Human ||+2 ||0 ||0 ||0 ||0 ||0 ||
+||Elf ||0 ||0 ||-2 ||+2 ||+2 ||+1 ||
+||Dwarf ||+2 ||+2 ||+2 ||-2 ||-2 ||-2 ||
+||Gnome ||+1 ||0 ||0 ||+1 ||0 ||0 ||
+||Orc ||+2 ||0 ||0 ||-2 ||-2 ||-3 ||
+
+
+
+
+=== Wizard mode ===
+The [[wizard mode]] of NetHack brass supplies the #[[rrllududab]] [[extended command]], a code that gives your maximum attributes to you, a reference to the [[wikipedia:Konami code|Konami code]].
+
+== SLASH'EM: ==
+''You can ignore this section unless you play SLASH'EM.''
+
+[[SLASH'EM]], mainly due to the changed behaviour of the [[Gauntlets of power]], handles strength between 18/** and 25 differently than vanilla ''NetHack''.
+||<tableclass="prettytable striped">strength ||to-hit ||damage ||
+||3-5 ||-2 ||-1 ||
+||6-7 ||-1 ||0 ||
+||8-15 ||0 ||0 ||
+||16 ||0 ||+1 ||
+||17 ||+1 ||+1 ||
+||18 ||+1 ||+2 ||
+||18/01-18/99 ||+1 ||+3 ||
+||18/** ||+2 ||+4 ||
+||19 ||+2 ||+5 ||
+||20 ||+3 ||+6 ||
+||21 ||+3 ||+7 ||
+||22 ||+4 ||+8 ||
+||23 ||+4 ||+9 ||
+||24 ||+5 ||+10 ||
+||25 ||+5 ||+11 ||
+
+
+
+
+=== Other traits of the player ===
+These are important, though you might choose to avoid calling them ''attributes''. * [[hit points]] * [[inventory]] * [[purse]] * [[encumbrance]] * [[weight]] * [[intrinsic]]
+
+== Source code references ==
+== See Also ==

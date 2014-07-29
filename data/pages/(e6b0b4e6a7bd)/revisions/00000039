@@ -1,0 +1,135 @@
+= 水槽 =
+水槽是地牢的一个地牢地形。
+
+水槽将使在他们上方的空气中的任何东西“下沉”到地板上，无论是投掷的武器，或者你处在浮空状态下的角色。当在悬浮状态落入水槽，会对你造成伤害（甚至可能导致死亡，如果你运气不好的话）。
+
+坐在一个水槽上将产生“你的臀部变湿。”的消息。
+
+踢kick水槽或从它喝水quaff会有后果，他们大多是负面的，也有很少的有益的后果，戒指掉入水槽将导致他们失去，并产生一条消息，使您能够鉴定戒指。
+
+在水槽挖下去会变成一个（非魔法）喷泉（然后可以挖下去使它变成水塘，用来blanking and diloting）。
+
+如果目前的地牢层有水槽 ，你偶尔会听到一则消息： "You hear a gurgling noise." "You hear a slow drip."  “你听到潺潺声。” “你听到水滴缓缓滴落。”
+
+内容 <<TableOfContents>>
+
+== 踢水槽 ==
+踢水槽有几个可能的影响。
+
+80％的后果是， "Klunk! The pipes vibrate noisily."  。”这个动作锻炼敏捷并唤醒附近的怪物。
+
+还有，“黑色布丁从下水道喷出来了！”这意味着黑布丁被召唤，同时也锻炼了敏捷。
+
+还有，“洗碗机回报！”洗碗机是和你角色异性的梦魇?foocubus，<_-||洗碗机。。。＞如果主人公是一个中性的生物，则其性别随机。锻炼敏捷。
+
+有时候，“Flupp！一堆秽物出来了。”，出现这种情况时，“你看戒指闪耀在其之中”锻炼了敏捷与智力。
+
+如果没有这些事情发生，“哎哟！我伤了！”你失去多达5点生命值，降低灵巧和力量，并有可能最终有一个受伤的腿。
+
+== 从水槽畅饮 ==
+你可以在一个水槽使用quaff，而喝水槽里的水。一旦这样做，你会得到一个消息暗示所产生的后果。您收到的具体信息取决于你的状态和地牢怪物。
+
+=== 对照表 ===
+应该加一个英文提示对照
+||几率 ||出现的东西 ||影响 ||当时状态 ||提示信息 ||
+||<style="text-align:center" |4>11/20 ||<style="text-align:center" |4>水 ||<style="text-align:center" |4>无 ||<style="text-align:center" |3>/ ||你喝了一大口冷(温、热)水 ||
+||你听到管子的声音 ||
+||你从下水道听到一阵歌声 ||
+||幻觉 ||从下水道伸出一只手  opps! ||
+||<style="text-align:center" |2>1/20 ||<style="text-align:center" |2>滚烫的水 ||lose 1d6 hit points ||无 ||你喝了一口滚烫的水 ||
+||无效果 ||有火焰抗性 ||你喝了一口滚烫的水，真是美味 ||
+||<style="text-align:center" |3>1/20 ||<style="text-align:center" |2>阴沟鼠 ||<style="text-align:center" |2>一只阴沟鼠出现了 ||你能看见老鼠 ||啊！水槽里有只阴沟鼠 ||
+||你不能看见老鼠 ||啊!水槽里有什么在蠕动 ||
+||无 ||无 ||阴沟鼠被灭绝了 ||水槽看起来真脏 ||
+||<style="text-align:center" |2>1/20 ||<style="text-align:center" |2>随机的未诅咒药剂 ||<style="text-align:center" |2>与该药剂同效果 ||你能看见 ||一些(药剂外观)的液体从水龙头里流出 ||
+||你处于盲目 ||一些奇怪的液体从水龙头里流出 ||
+||<style="text-align:center" |2>1/20 ||随机的戒指 ||生成一个戒指且锻炼了智力 ||无 ||你从水槽里发现一个戒指 ||
+||脏水 ||无 ||你已经从这个水槽发现了戒指 ||一些脏水从下水道里涌出 ||
+||1/20 ||无 ||水槽变成了泉水 ||无 ||管子破裂了!水正在溢出 ||
+||<style="text-align:center" |2>1/20 ||a water elemental ||产生了a water elemental ||无 ||水自己流淌出了 ||
+||无 ||无 ||water elemental被灭绝了 ||水自己淌出来，不过一会就好了 ||
+||1/20 ||硬水 ||你得到一点经验 ||无 ||yak 这水真难喝 ||
+||1/20 ||下水道的水 ||你更饿了 ||无 ||gag。。这水像下水道的水。。。你呕吐了 ||
+||<style="text-align:center" |2>1/20 ||<style="text-align:center" |2>有毒废水 ||你变形了 ||无 ||这水是有毒的!你变异了 ||
+||无 ||你对变形免疫 ||这水有毒 ||
+
+
+
+
+UnNetHack [编辑]
+
+在UnNetHack，幸运的吸血鬼（无论在开始比赛或被变形的），或倒霉非吸血鬼有1/13的机会获得的吸血鬼血液，而不是随机的药水药水的。此外，药水现在可以是任何BUC的，这取决于运气，具有以下概率：
+
+ . - 首先，是被诅咒的魔药的1 /（17 +运气）的机会。 - 然后，如果它不是诅咒，有被祝福药水的1 /（17  - 幸运）的机会。 - 然后，如果这些都不发生，药水是uncursed。
+
+== 用水槽鉴定戒指 ==
+所有的戒指可以通过放到水槽进行鉴定水槽将显示的效果取决于戒指的类型。搜索和消化迟缓的戒指永不丢失;所有其他戒指都将丢失下跌概率为95％的流失。因此，它是一个好主意，只有当你有相同类型的另一环作为一个被测试，或者如果你正在挨饿做这个测试。
+
+收到消息后，您将有机会说出你掉的那种环，但前提是你还没有把它命名。饥饿的环也不会给你机会，如果失败摧毁一个项目。当然，如果你有你扔下环的副本，您可以随时名称来代替。
+
+请注意，大多数的消息需要你是不是盲目的，和饥饿的环需要有一个（最好是不值钱的）对象已经在下沉。如果这些都没有的话，你只会得到“你听到铃声弹跳下来的排水管。”
+||NetHack 提示信息 ||戒指类型 ||备注 ||
+||You thought your [ring] got lost in the sink, but there it is! <<BR>>你想你的「戒指」丢失了，但是它还在那里 ||[[Ring of searching]]<<BR>>[[探索戒指]] ||戒指未丢失 ||
+||The ring is regurgitated! <<BR>>戒指被反呕出来！||[[Ring of slow digestion]]<<BR>>[[减缓消化戒指]] ||戒指未丢失 ||
+||The sink quivers upward for a moment.<<BR>>水槽向上颤抖了一下。 ||[[Ring of levitation]][[浮空戒指]] || ||
+||You smell rotten [[fruit]].<<BR>>你闻见了腐烂的水果味。 ||[[Ring of poison resistance]]<<BR>>[[抗毒戒指]] || ||
+||Static electricity surrounds the sink.<<BR>>静电环绕着水槽。 ||[[Ring of shock resistance]]<<BR>>[[抗电戒指]] || ||
+||You hear loud noises coming from the drain.<<BR>>你从排水管道中听到了大声的喧闹。 ||[[Riing of conflict]]<<BR>>[[冲突戒指]] || ||
+||The water flow seems fixed.<<BR>>水流看起来很稳定。 ||[[Ring of sustain ability]]<<BR>>[[维持能力戒指]] || ||
+||The water flow seems stronger now.<<BR>>水流看起来更强了。 ||[[Ring of gain strength]] (at least +0) <<BR>>[[力量戒指]]（至少 +0）|| ||
+||The water flow seems weaker now.<<BR>>水流看起来更弱了。 ||[[Ring of gain strength]] (-1 or worse) <<BR>>[[力量戒指]]（-1或更糟）|| ||
+||The water flow seems greater now.<<BR>>水流看起来更大了。 ||[Ring of gain constitution]] (at least +0)<<BR>>[[耐力戒指]]（至少 +0） || ||
+||The water flow seems lesser now.<<BR>>水流看起来更小了。 ||[[Ring of gain constitution]] (-1 or worse)<<BR>>[[耐力戒指]]（-1或更糟）|| ||
+||The water flow hits the drain.<<BR>>水流击中下水管道。||[[Ring of increase accuracy]] (at least +0)<<BR>>[[增加精度戒指]]（至少 +0) || ||
+||The water flow misses the drain.<<BR>>水流未击中下水管道。 ||[[Ring of increase accuracy]] (-1 or worse)<<BR>>[[增加精度戒指]]（-1或更糟） || ||
+||The water's force seems greater now.<<BR>>水的冲击力更大了。 ||[[Ring of increase damage]] (at least +0) <<BR>>[[增加伤害戒指]]（至少 +0）|| ||
+||The water's force seems smaller now.<<BR>>水的冲击力更小了。 ||[[Ring of increase damage]] (-1 or worse) <<BR>>[[增加伤害戒指]]（-1或更糟）|| ||
+||Several flies buzz around the sink.<<BR>>几个苍蝇在水槽周围嗡嗡鸣叫。 ||[[meat ring]]<<BR>>[[肉戒指]] || ||
+||Several flies buzz angrily around the sink. <<BR>>几个苍蝇在水槽周围生气地嗡嗡鸣叫||[[Ring of aggravate monster]]<<BR>>[[恶化怪物戒指]] || ||
+
+The effects in the following table only occur if the hero can see:
+||信息提示||戒指类型||备注||
+||Suddenly, <item> vanish(es) from the sink!<<BR>>突然，<物品>从水槽消失了||	hunger<<BR>>饥饿||An item must be on the sink. Some items may resist.[1]<<BR>>物品必须在水槽上，一些物品会抵抗||
+||The faucets flash brightly for a moment.<<BR>>水龙头明亮的闪烁了一下||adornment||Does not distinguish negative enchantment||
+||The sink looks as good as new.<<BR>>水槽看起来完好如新||regeneration<<BR>>再生||
+||You don't see anything happen to the sink.<<BR>>水槽什么也没发生||invisibility<<BR>>隐形||
+||You see the ring slide right down the  drain!<<BR>>你看到戒指从水槽掉了下去||free action||	
+||You see some air in the sink.<<BR>>你在水槽中看见一些空气||see invisible<<BR>>隐形可见||
+||The sink seems to blend into the floor for a moment.	<<BR>>水槽似乎要陷入地面||stealth<<BR>>潜行||
+||The hot water faucet flashes brightly for a moment.<<BR>>热水水龙头明亮的闪了一下||fire resistance<<BR>>抗火||
+||The cold water faucet flashes brightly for a moment.<<BR>>冷水水龙头明亮的闪了一下||cold resistance<<BR>>抗寒||
+||The sink looks nothing like a fountain.<<BR>>水槽看起来一点也不像个泉水||protection from shape changer||
+||The sink glows silver for a moment.||protection (at least +0)	
+||The sink glows black for a moment.||protection (-1 or worse)||
+||The sink glows white for a moment.||warning||
+||The sink momentarily vanishes.||teleportation||
+||The sink looks like it is being beamed aboard somewhere.||teleport control||
+||The sink momentarily looks like a fountain.||polymorph	||
+||The sink momentarily looks like a regularly erupting geyser.||polymorph control||
+
+UnNetHack
+
+在UnNetHack，放变形戒指到水槽会变成水槽变成一个喷泉，祭坛，或王座。此外，滴加隐形传态的一个环到水槽会随机瞬移下沉。
+
+== 策略 ==
+从水槽畅饮通常是一个危险的赌博，并没有太多的奖励。充其量你得到一个戒指，你已经可以得到由踢它（这是更安全）。在最坏的情况，你会得到疾病或晶型的药水到的东西会打破你的盔甲。东西坏的几率比的好东西（看可能性图表）的机会显著较高。
+
+在另一方面，踢水槽是相当安全的;提供你过去的经历有关5级你不打算要由foocubus被杀，黑布丁是太过缓慢，以至于他们不会杀你，如果你仔细地移动。事实上，无论是thepudding和foocubus都对你有好处。
+
+请记住，如果你打算吃首饰，只有金属和木材环是可食用的。既然你无法从非食用环的内部函数，你只需要一个，如果你想要那个外在的磨损;丢弃一个比较下来水槽不花费你很多。
+
+还要注意的是环识别是alwayssafe，如果成本高昂，而你只需要一个单一的片来做到这一点。因此，如果你决定畅饮/踢汇，它在你的最佳利益，至少要有一台完好的水槽为你的戒指。
+
+在UnNetHack，幸运的玩家可能会发现更有价值的汇喝的，因为不是总是给人uncursed药水的效果，随机药水的BUC是随机的，但有运气的变化。此外，幸运的吸血鬼有得到的吸血鬼血液，这可能是一个大福音药水的机会。但是，它仍是一个显著赌博。
+
+== 参考文献 ==
+: Balls and chains bound to you will resist, whereas normal objects will resist with 1% chance, artifacts with 99% chance, and unique items and the Amulet always http://www.statslab.cam.ac.uk/~eva/slashem/rings.html
+
+--------
+This page is based on a spoiler by Dylan O'Donnell. The original license is: Redistribution, copying, and editing of these spoilers, with or without modification, are permitted provided that the following conditions are met: The original contributors to any spoiler must continue to be credited. Any modifications to the spoiler must be acknowledged and credited. 此页面是基于一个扰流板byDylan奥唐奈。原许可证：
+
+重新分配，复制和编辑这些破坏者，无论修改与否，都允许下列条件：
+
+原来贡献者任何扰流板必须继续credited.Any修改的扰流板必须承认并计入。
+
+￼

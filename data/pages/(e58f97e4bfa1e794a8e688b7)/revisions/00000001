@@ -1,0 +1,2 @@
+#acl TrustedEditorGroup:read,write,revert All:read
+#REDIRECT TrustedEditorGroup
